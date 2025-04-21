@@ -6837,3 +6837,1441 @@ Script call stack:
 [2025.04.20-21.17.28:470][900]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
 [2025.04.20-21.17.28:475][900]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
 [2025.04.20-21.17.28:549][901]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2025.04.20-21.18.06:116][245]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6889.815918
+[2025.04.20-21.18.07:119][248]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.20-21.18.07:119][248]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6890.482422, Update Interval: 336.922516
+[2025.04.20-21.21.20:208][146]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2025.04.20-21.21.25:208][146]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2025.04.20-21.21.30:209][146]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2025.04.21-00.30.17:989][146]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: Yes RefreshRequired: Yes VerifyRequired: Yes UserId: 0a4...13c
+[2025.04.21-00.30.17:989][146]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: -1.121e+04 RefreshExpires: 1.553e+07
+[2025.04.21-00.30.19:076][147]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Realtek Digital Output (Realtek USB Audio), InstanceID=1
+[2025.04.21-00.30.19:259][147]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Focusrite USB Audio), InstanceID=1
+[2025.04.21-00.30.23:168][147]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.04.21-00.30.23:168][147]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=37716
+[2025.04.21-00.30.23:176][147]LogEOSSDK: Warning: LogHttp: 00000B32FE7DE400: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B816BA955-4B10-8035-F49B-AEBC923A069B%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.04.21-00.30.23:176][147]LogEOSSDK: Warning: LogHttp: 00000B32FE7DE400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.04.21-00.30.23:176][147]LogEOSSDK: Warning: LogHttp: 00000B32FE7DE400: libcurl info message cache 0 (Too old connection (11339 seconds idle), disconnect it)
+[2025.04.21-00.30.23:176][147]LogEOSSDK: Warning: LogHttp: 00000B32FE7DE400: libcurl info message cache 1 (Connection 3 seems to be dead)
+[2025.04.21-00.30.23:176][147]LogEOSSDK: Warning: LogHttp: 00000B32FE7DE400: libcurl info message cache 2 (Closing connection)
+[2025.04.21-00.30.23:176][147]LogEOSSDK: Warning: LogHttp: 00000B32FE7DE400: libcurl info message cache 3 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.04.21-00.30.23:176][147]LogEOSSDK: Warning: LogHttp: 00000B32FE7DE400: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2025.04.21-00.30.23:176][147]LogEOSSDK: Warning: LogHttp: 00000B32FE7DE400: libcurl info message cache 5 (Closing connection)
+[2025.04.21-00.30.23:176][147]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B816BA955-4B10-8035-F49B-AEBC923A069B%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.04.21-00.30.23:509][149]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.04.21-00.30.23:513][149]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=8, SampleRate=48000, DeviceID={0.0.0.00000000}.{572174fe-d6ac-43c1-9e97-6c51e98a3e24}, Name=Speakers (Focusrite USB Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=143.31
+[2025.04.21-00.30.23:513][149]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=1
+[2025.04.21-00.30.23:515][149]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.04.21-00.30.35:262][184]LogHttp: Warning: 00000B32FE8EA100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.04.21-00.30.35:262][184]LogHttp: Warning: 00000B32FE8EA100: libcurl info message cache 0 (Too old connection (11346 seconds idle), disconnect it)
+[2025.04.21-00.30.35:262][184]LogHttp: Warning: 00000B32FE8EA100: libcurl info message cache 1 (Connection 4 seems to be dead)
+[2025.04.21-00.30.35:262][184]LogHttp: Warning: 00000B32FE8EA100: libcurl info message cache 2 (Closing connection)
+[2025.04.21-00.30.35:262][184]LogHttp: Warning: 00000B32FE8EA100: libcurl info message cache 3 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.04.21-00.30.35:262][184]LogHttp: Warning: 00000B32FE8EA100: libcurl info message cache 4 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.04.21-00.30.35:262][184]LogHttp: Warning: 00000B32FE8EA100: libcurl info message cache 5 (Closing connection)
+[2025.04.21-00.30.35:262][184]LogEOSSDK: Warning: LogHttp: 00000B32FE7DD200: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.04.21-00.30.35:262][184]LogEOSSDK: Warning: LogHttp: 00000B32FE7DD200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.04.21-00.30.35:262][184]LogEOSSDK: Warning: LogHttp: 00000B32FE7DD200: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2025.04.21-00.30.35:262][184]LogEOSSDK: Warning: LogHttp: 00000B32FE7DD200: libcurl info message cache 1 (Closing connection)
+[2025.04.21-00.30.35:262][184]LogEOSSDK: Warning: LogHttp: 00000B32FE7D7800: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.04.21-00.30.35:262][184]LogEOSSDK: Warning: LogHttp: 00000B32FE7D7800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.04.21-00.30.35:262][184]LogEOSSDK: Warning: LogHttp: 00000B32FE7D7800: libcurl info message cache 0 (Found bundle for host: 0xb3240880c60 [serially])
+[2025.04.21-00.30.35:262][184]LogEOSSDK: Warning: LogHttp: 00000B32FE7D7800: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.04.21-00.30.35:262][184]LogEOSSDK: Warning: LogHttp: 00000B32FE7D7800: libcurl info message cache 2 (Closing connection)
+[2025.04.21-00.30.35:262][184]LogEOSSDK: Warning: LogHttp: 00000B32FE7DC000: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BBB80A818-4574-6582-2AD4-62B744DC725B%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.04.21-00.30.35:262][185]LogEOSSDK: Warning: LogHttp: 00000B32FE7DC000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.04.21-00.30.35:262][185]LogEOSSDK: Warning: LogHttp: 00000B32FE7DC000: libcurl info message cache 0 (Found bundle for host: 0xb3240880c60 [serially])
+[2025.04.21-00.30.35:262][185]LogEOSSDK: Warning: LogHttp: 00000B32FE7DC000: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.04.21-00.30.35:262][185]LogEOSSDK: Warning: LogHttp: 00000B32FE7DC000: libcurl info message cache 2 (Closing connection)
+[2025.04.21-00.30.35:262][185]LogEOSSDK: Warning: LogHttp: 00000B32FE7DF600: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=E07268314FEA7FB3598F2FB6794E60B6, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.04.21-00.30.35:262][185]LogEOSSDK: Warning: LogHttp: 00000B32FE7DF600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.04.21-00.30.35:262][185]LogEOSSDK: Warning: LogHttp: 00000B32FE7DF600: libcurl info message cache 0 (Found bundle for host: 0xb3240880c60 [serially])
+[2025.04.21-00.30.35:262][185]LogEOSSDK: Warning: LogHttp: 00000B32FE7DF600: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.04.21-00.30.35:262][185]LogEOSSDK: Warning: LogHttp: 00000B32FE7DF600: libcurl info message cache 2 (Closing connection)
+[2025.04.21-00.30.35:262][185]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BBB80A818-4574-6582-2AD4-62B744DC725B%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.04.21-00.30.35:262][185]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/epic/oauth/v2/token
+[2025.04.21-00.30.35:262][185]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=E07268314FEA7FB3598F2FB6794E60B6
+[2025.04.21-00.30.35:262][185]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.04.21-00.30.36:594][188]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/epic/oauth/v2/token
+[2025.04.21-00.30.36:594][188]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=E07268314FEA7FB3598F2FB6794E60B6
+[2025.04.21-00.30.36:594][188]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.04.21-00.30.39:262][196]LogEOSSDK: Warning: LogHttp: Success on https://api.epicgames.dev/epic/oauth/v2/token
+[2025.04.21-00.30.39:262][196]LogEOSSDK: Warning: LogHttp: Success on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.04.21-00.30.39:262][196]LogEOSSDK: Warning: LogHttp: Success on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=E07268314FEA7FB3598F2FB6794E60B6
+[2025.04.21-00.30.39:595][197]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: 0a4...13c Access[Expires: 2025.04.21-02.31.20 Remaining: 7200.26] Refresh[Expires: 2025-10-17T17:16:29.537Z Remaining: 15525909.54] State: Valid
+[2025.04.21-00.31.13:267][298]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18477.041016
+[2025.04.21-00.31.14:267][301]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-00.31.14:267][301]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18477.708984, Update Interval: 356.630768
+[2025.04.21-00.33.55:501][785]LogDerivedDataCache: C:/Users/sinan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.04.21-00.37.45:660][475]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18869.666016
+[2025.04.21-00.37.46:660][478]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-00.37.46:660][478]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18870.333984, Update Interval: 347.863403
+[2025.04.21-00.44.24:990][672]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2025.04.21-08.26.47:225][672]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 47011.578125
+[2025.04.21-08.26.47:225][672]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: Yes RefreshRequired: Yes VerifyRequired: Yes UserId: 0a4...13c
+[2025.04.21-08.26.47:225][672]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: -2.137e+04 RefreshExpires: 1.55e+07
+[2025.04.21-08.26.49:797][673]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Realtek Digital Output (Realtek USB Audio), InstanceID=1
+[2025.04.21-08.26.49:916][673]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Focusrite USB Audio), InstanceID=1
+[2025.04.21-08.26.52:960][673]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.04.21-08.26.52:960][673]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=37716
+[2025.04.21-08.26.52:974][673]LogEOSSDK: Warning: LogHttp: 00000B32FE7DCC00: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BBB80A818-4574-6582-2AD4-62B744DC725B%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.04.21-08.26.52:974][673]LogEOSSDK: Warning: LogHttp: 00000B32FE7DCC00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.04.21-08.26.52:974][673]LogEOSSDK: Warning: LogHttp: 00000B32FE7DCC00: libcurl info message cache 0 (Too old connection (27748 seconds idle), disconnect it)
+[2025.04.21-08.26.52:974][673]LogEOSSDK: Warning: LogHttp: 00000B32FE7DCC00: libcurl info message cache 1 (Connection 10 seems to be dead)
+[2025.04.21-08.26.52:974][673]LogEOSSDK: Warning: LogHttp: 00000B32FE7DCC00: libcurl info message cache 2 (Closing connection)
+[2025.04.21-08.26.52:974][673]LogEOSSDK: Warning: LogHttp: 00000B32FE7DCC00: libcurl info message cache 3 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.04.21-08.26.52:974][673]LogEOSSDK: Warning: LogHttp: 00000B32FE7DCC00: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2025.04.21-08.26.52:974][673]LogEOSSDK: Warning: LogHttp: 00000B32FE7DCC00: libcurl info message cache 5 (Closing connection)
+[2025.04.21-08.26.53:000][674]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BBB80A818-4574-6582-2AD4-62B744DC725B%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.04.21-08.26.53:309][675]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.04.21-08.26.53:311][675]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=8, SampleRate=48000, DeviceID={0.0.0.00000000}.{572174fe-d6ac-43c1-9e97-6c51e98a3e24}, Name=Speakers (Focusrite USB Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=150.33
+[2025.04.21-08.26.53:311][675]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=1
+[2025.04.21-08.26.53:313][675]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.04.21-08.27.05:028][710]LogHttp: Warning: 00000B32FE8EE700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.04.21-08.27.05:028][710]LogHttp: Warning: 00000B32FE8EE700: libcurl info message cache 0 (Too old connection (27751 seconds idle), disconnect it)
+[2025.04.21-08.27.05:028][710]LogHttp: Warning: 00000B32FE8EE700: libcurl info message cache 1 (Connection 6 seems to be dead)
+[2025.04.21-08.27.05:028][710]LogHttp: Warning: 00000B32FE8EE700: libcurl info message cache 2 (Closing connection)
+[2025.04.21-08.27.05:028][710]LogHttp: Warning: 00000B32FE8EE700: libcurl info message cache 3 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.04.21-08.27.05:028][710]LogHttp: Warning: 00000B32FE8EE700: libcurl info message cache 4 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.04.21-08.27.05:028][710]LogHttp: Warning: 00000B32FE8EE700: libcurl info message cache 5 (Closing connection)
+[2025.04.21-08.27.05:028][710]LogEOSSDK: Warning: LogHttp: 00000B32FE7D9600: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.04.21-08.27.05:028][710]LogEOSSDK: Warning: LogHttp: 00000B32FE7D9600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.04.21-08.27.05:028][710]LogEOSSDK: Warning: LogHttp: 00000B32FE7D9600: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2025.04.21-08.27.05:028][710]LogEOSSDK: Warning: LogHttp: 00000B32FE7D9600: libcurl info message cache 1 (Closing connection)
+[2025.04.21-08.27.05:028][710]LogEOSSDK: Warning: LogHttp: 00000B32FE7DDE00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.04.21-08.27.05:028][710]LogEOSSDK: Warning: LogHttp: 00000B32FE7DDE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.04.21-08.27.05:028][710]LogEOSSDK: Warning: LogHttp: 00000B32FE7DDE00: libcurl info message cache 0 (Found bundle for host: 0xb3240880e70 [serially])
+[2025.04.21-08.27.05:028][710]LogEOSSDK: Warning: LogHttp: 00000B32FE7DDE00: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.04.21-08.27.05:028][710]LogEOSSDK: Warning: LogHttp: 00000B32FE7DDE00: libcurl info message cache 2 (Closing connection)
+[2025.04.21-08.27.05:028][710]LogEOSSDK: Warning: LogHttp: 00000B32FE7DD800: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=E07268314FEA7FB3598F2FB6794E60B6, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.04.21-08.27.05:028][710]LogEOSSDK: Warning: LogHttp: 00000B32FE7DD800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.04.21-08.27.05:028][710]LogEOSSDK: Warning: LogHttp: 00000B32FE7DD800: libcurl info message cache 0 (Found bundle for host: 0xb3240880e70 [serially])
+[2025.04.21-08.27.05:028][710]LogEOSSDK: Warning: LogHttp: 00000B32FE7DD800: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.04.21-08.27.05:028][710]LogEOSSDK: Warning: LogHttp: 00000B32FE7DD800: libcurl info message cache 2 (Closing connection)
+[2025.04.21-08.27.05:028][711]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/epic/oauth/v2/token
+[2025.04.21-08.27.05:028][711]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=E07268314FEA7FB3598F2FB6794E60B6
+[2025.04.21-08.27.05:028][711]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.04.21-08.27.06:029][713]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/epic/oauth/v2/token
+[2025.04.21-08.27.06:029][713]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=E07268314FEA7FB3598F2FB6794E60B6
+[2025.04.21-08.27.06:029][713]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.04.21-08.27.18:366][750]LogEOSSDK: Warning: LogHttp: 00000B32FE7D9600: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.04.21-08.27.18:366][750]LogEOSSDK: Warning: LogHttp: 00000B32FE7D9600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.04.21-08.27.18:366][750]LogEOSSDK: Warning: LogHttp: 00000B32FE7D9600: libcurl info message cache 2 (Could not resolve host: api.epicgames.dev)
+[2025.04.21-08.27.18:366][750]LogEOSSDK: Warning: LogHttp: 00000B32FE7D9600: libcurl info message cache 3 (Closing connection)
+[2025.04.21-08.27.18:366][750]LogEOSSDK: Warning: LogHttp: 00000B32FE7DCC00: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BBB80A818-4574-6582-2AD4-62B744DC725B%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.04.21-08.27.18:366][750]LogEOSSDK: Warning: LogHttp: 00000B32FE7DCC00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.04.21-08.27.18:366][750]LogEOSSDK: Warning: LogHttp: 00000B32FE7DCC00: libcurl info message cache 0 (Found bundle for host: 0xb3240880150 [serially])
+[2025.04.21-08.27.18:366][750]LogEOSSDK: Warning: LogHttp: 00000B32FE7DCC00: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.04.21-08.27.18:366][750]LogEOSSDK: Warning: LogHttp: 00000B32FE7DCC00: libcurl info message cache 2 (Closing connection)
+[2025.04.21-08.27.18:366][750]LogEOSSDK: Warning: LogHttp: 00000B32FE7DDE00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.04.21-08.27.18:366][750]LogEOSSDK: Warning: LogHttp: 00000B32FE7DDE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.04.21-08.27.18:366][750]LogEOSSDK: Warning: LogHttp: 00000B32FE7DDE00: libcurl info message cache 3 (Found bundle for host: 0xb3240880150 [serially])
+[2025.04.21-08.27.18:366][750]LogEOSSDK: Warning: LogHttp: 00000B32FE7DDE00: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2025.04.21-08.27.18:366][750]LogEOSSDK: Warning: LogHttp: 00000B32FE7DDE00: libcurl info message cache 5 (Closing connection)
+[2025.04.21-08.27.18:366][750]LogEOSSDK: Warning: LogHttp: 00000B32FE7DD800: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=E07268314FEA7FB3598F2FB6794E60B6, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.04.21-08.27.18:366][750]LogEOSSDK: Warning: LogHttp: 00000B32FE7DD800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.04.21-08.27.18:366][750]LogEOSSDK: Warning: LogHttp: 00000B32FE7DD800: libcurl info message cache 3 (Found bundle for host: 0xb3240880150 [serially])
+[2025.04.21-08.27.18:366][751]LogEOSSDK: Warning: LogHttp: 00000B32FE7DD800: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2025.04.21-08.27.18:366][751]LogEOSSDK: Warning: LogHttp: 00000B32FE7DD800: libcurl info message cache 5 (Closing connection)
+[2025.04.21-08.27.18:366][751]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BBB80A818-4574-6582-2AD4-62B744DC725B%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.04.21-08.27.18:366][751]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/epic/oauth/v2/token
+[2025.04.21-08.27.18:366][751]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=E07268314FEA7FB3598F2FB6794E60B6
+[2025.04.21-08.27.18:366][751]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.04.21-08.27.19:698][754]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/epic/oauth/v2/token
+[2025.04.21-08.27.19:698][754]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=E07268314FEA7FB3598F2FB6794E60B6
+[2025.04.21-08.27.19:698][754]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.04.21-08.27.32:035][791]LogEOSSDK: Warning: LogHttp: 00000B32FE7D9600: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.04.21-08.27.32:035][791]LogEOSSDK: Warning: LogHttp: 00000B32FE7D9600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.04.21-08.27.32:035][791]LogEOSSDK: Warning: LogHttp: 00000B32FE7D9600: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2025.04.21-08.27.32:035][791]LogEOSSDK: Warning: LogHttp: 00000B32FE7D9600: libcurl info message cache 5 (Closing connection)
+[2025.04.21-08.27.32:035][791]LogEOSSDK: Warning: LogHttp: 00000B32FE7DDE00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.04.21-08.27.32:035][791]LogEOSSDK: Warning: LogHttp: 00000B32FE7DDE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.04.21-08.27.32:035][791]LogEOSSDK: Warning: LogHttp: 00000B32FE7DDE00: libcurl info message cache 6 (Found bundle for host: 0xb3240880ba0 [serially])
+[2025.04.21-08.27.32:035][791]LogEOSSDK: Warning: LogHttp: 00000B32FE7DDE00: libcurl info message cache 7 (Could not resolve host: api.epicgames.dev)
+[2025.04.21-08.27.32:035][791]LogEOSSDK: Warning: LogHttp: 00000B32FE7DDE00: libcurl info message cache 8 (Closing connection)
+[2025.04.21-08.27.32:035][791]LogEOSSDK: Warning: LogHttp: 00000B32FE7DD800: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=E07268314FEA7FB3598F2FB6794E60B6, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.04.21-08.27.32:035][791]LogEOSSDK: Warning: LogHttp: 00000B32FE7DD800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.04.21-08.27.32:035][791]LogEOSSDK: Warning: LogHttp: 00000B32FE7DD800: libcurl info message cache 6 (Found bundle for host: 0xb3240880ba0 [serially])
+[2025.04.21-08.27.32:035][791]LogEOSSDK: Warning: LogHttp: 00000B32FE7DD800: libcurl info message cache 7 (Could not resolve host: api.epicgames.dev)
+[2025.04.21-08.27.32:035][791]LogEOSSDK: Warning: LogHttp: 00000B32FE7DD800: libcurl info message cache 8 (Closing connection)
+[2025.04.21-08.27.32:035][791]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/epic/oauth/v2/token
+[2025.04.21-08.27.32:035][791]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=E07268314FEA7FB3598F2FB6794E60B6
+[2025.04.21-08.27.32:035][792]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
+[2025.04.21-08.27.32:035][792]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.04.21-08.27.33:367][795]LogEOSSDK: Warning: LogHttp: Retry 3 on https://api.epicgames.dev/epic/oauth/v2/token
+[2025.04.21-08.27.33:367][795]LogEOSSDK: Warning: LogHttp: Retry 3 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.04.21-08.27.37:036][806]LogEOSSDK: Warning: LogHttp: Success on https://api.epicgames.dev/epic/oauth/v2/token
+[2025.04.21-08.27.37:036][807]LogEOSSDK: Warning: LogHttp: Success on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.04.21-08.27.37:370][807]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: 0a4...13c Access[Expires: 2025.04.21-10.28.18 Remaining: 7200.24] Refresh[Expires: 2025-10-17T17:16:29.537Z Remaining: 15497291.54] State: Valid
+[2025.04.21-08.27.38:370][810]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-08.27.38:370][810]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 47062.289062, Update Interval: 348.573883
+[2025.04.21-08.34.18:430][ 10]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 47462.101562
+[2025.04.21-08.34.19:426][ 13]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-08.34.19:426][ 13]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 47462.765625, Update Interval: 307.368378
+[2025.04.21-08.40.04:480][ 48]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 47807.679688
+[2025.04.21-08.40.05:479][ 51]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-08.40.05:479][ 51]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 47808.343750, Update Interval: 322.993256
+[2025.04.21-08.46.04:866][129]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 48167.570312
+[2025.04.21-08.46.05:869][132]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-08.46.05:869][132]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 48168.238281, Update Interval: 315.705444
+[2025.04.21-08.52.08:928][221]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 48531.128906
+[2025.04.21-08.52.09:928][224]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-08.52.09:928][224]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 48531.792969, Update Interval: 304.903717
+[2025.04.21-08.54.11:977][972]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2025.04.21-08.54.11:978][972]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.21-08.54.12:133][972]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2025.04.21-08.54.50:361][475]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.04.21-08.54.50:543][475]LogBlueprint: Warning: Blueprint /Game/Blueprints/Add-ons/EasyQuests/Tutorials/BP_HowToProcessObjectives is missing GeneratedClass asset tag
+[2025.04.21-08.54.50:543][475]LogBlueprint: Warning: Blueprint /Game/Blueprints/Add-ons/EasyQuests/Tutorials/BP_HowToMakeYourOwnQuests is missing GeneratedClass asset tag
+[2025.04.21-08.54.50:543][475]LogBlueprint: Warning: Blueprint /Game/Blueprints/Add-ons/EasyQuests/Tutorials/BP_HowToIntegrateToYourOwnCharacter is missing GeneratedClass asset tag
+[2025.04.21-08.54.50:543][475]LogBlueprint: Warning: Blueprint /Game/Blueprints/Add-ons/EasyQuests/Tutorials/BP_HowToAddQuestsToNPC is missing GeneratedClass asset tag
+[2025.04.21-08.54.50:852][496]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-08.54.50:885][496]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mountea_Dialogue/BP_FPS_Main] ([2] browsable assets)...
+[2025.04.21-08.54.50:886][496]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mountea_Dialogue/BP_FPS_Main]
+[2025.04.21-08.54.50:913][496]LogSavePackage: Moving output files for package: /Game/Blueprints/Mountea_Dialogue/BP_FPS_Main
+[2025.04.21-08.54.50:914][496]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/BP_FPS_MainBDCA5D8C4C9E43A6B78BC5AEE6646413.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/Mountea_Dialogue/BP_FPS_Main.uasset'
+[2025.04.21-08.54.50:922][496]LogFileHelpers: InternalPromptForCheckoutAndSave took 70.696 ms (total: 5.39 sec)
+[2025.04.21-08.54.50:956][496]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-08.54.50:956][496]LogContentValidation: Enabled validators:
+[2025.04.21-08.54.50:956][496]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-08.54.50:956][496]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-08.54.50:956][496]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-08.54.50:956][496]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-08.54.50:956][496]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-08.54.50:956][496]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-08.54.50:956][496]AssetCheck: /Game/Blueprints/Mountea_Dialogue/BP_FPS_Main Validating asset
+[2025.04.21-08.56.36:220][ 39]LogContentBrowser: Deferred new asset file creation: BPD_StartQuest1
+[2025.04.21-08.56.36:225][ 39]LogContentBrowser: Creating deferred item: BPD_StartQuest1
+[2025.04.21-08.56.36:243][ 40]LogContentBrowser: Renaming the item being created (Deferred Item: BPD_StartQuest1).
+[2025.04.21-08.56.43:657][915]LogContentBrowser: Attempting asset rename: BPD_StartQuest1 -> BPD_CompleteObjective
+[2025.04.21-08.56.43:676][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.04.21-08.56.43:695][915]LogContentBrowser: End creating deferred item BPD_StartQuest1
+[2025.04.21-08.56.45:776][145]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.04.21-08.56.45:781][145]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-08.56.45:818][145]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mountea_Dialogue/Decarators/BPD_CompleteObjective] ([2] browsable assets)...
+[2025.04.21-08.56.45:818][145]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mountea_Dialogue/Decarators/BPD_CompleteObjective]
+[2025.04.21-08.56.45:822][145]LogSavePackage: Moving output files for package: /Game/Blueprints/Mountea_Dialogue/Decarators/BPD_CompleteObjective
+[2025.04.21-08.56.45:822][145]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/BPD_CompleteObjectiveE49CFC6E456BB6076A5BD6811715D413.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/Mountea_Dialogue/Decarators/BPD_CompleteObjective.uasset'
+[2025.04.21-08.56.45:832][145]LogFileHelpers: InternalPromptForCheckoutAndSave took 51.791 ms (total: 5.44 sec)
+[2025.04.21-08.56.45:868][145]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-08.56.45:868][145]LogContentValidation: Enabled validators:
+[2025.04.21-08.56.45:868][145]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-08.56.45:868][145]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-08.56.45:868][145]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-08.56.45:868][145]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-08.56.45:868][145]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-08.56.45:868][145]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-08.56.45:868][145]AssetCheck: /Game/Blueprints/Mountea_Dialogue/Decarators/BPD_CompleteObjective Validating asset
+[2025.04.21-08.56.47:847][361]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Mountea_Dialogue/Decarators/BPD_CompleteObjective.BPD_CompleteObjective
+[2025.04.21-08.56.47:847][361]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_55
+[2025.04.21-08.57.25:735][770]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.04.21-08.57.25:735][770]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2025.04.21-08.57.25:735][770]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.21-08.57.25:883][770]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.04.21-08.57.36:171][931]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Global_QI_Manager.BP_Global_QI_Manager
+[2025.04.21-08.57.36:171][931]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_56
+[2025.04.21-08.57.37:609][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.04.21-08.57.37:613][ 63]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-08.57.37:647][ 63]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Global_QI_Manager] ([2] browsable assets)...
+[2025.04.21-08.57.37:647][ 63]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Global_QI_Manager]
+[2025.04.21-08.57.37:675][ 63]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Global_QI_Manager
+[2025.04.21-08.57.37:676][ 63]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/BP_Global_QI_ManagerFA13F9664F268F1AC5C5F2902699E4E3.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/BP_Global_QI_Manager.uasset'
+[2025.04.21-08.57.37:684][ 63]LogFileHelpers: InternalPromptForCheckoutAndSave took 70.258 ms (total: 5.51 sec)
+[2025.04.21-08.57.37:718][ 63]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-08.57.37:718][ 63]LogContentValidation: Enabled validators:
+[2025.04.21-08.57.37:718][ 63]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-08.57.37:718][ 63]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-08.57.37:718][ 63]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-08.57.37:718][ 63]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-08.57.37:718][ 63]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-08.57.37:718][ 63]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-08.57.37:718][ 63]AssetCheck: /Game/Blueprints/BP_Global_QI_Manager Validating asset
+[2025.04.21-08.57.55:574][161]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.04.21-08.57.55:725][161]LogBlueprint: Warning: Blueprint /Game/Blueprints/Add-ons/EasyQuests/Tutorials/BP_HowToProcessObjectives is missing GeneratedClass asset tag
+[2025.04.21-08.57.55:725][161]LogBlueprint: Warning: Blueprint /Game/Blueprints/Add-ons/EasyQuests/Tutorials/BP_HowToMakeYourOwnQuests is missing GeneratedClass asset tag
+[2025.04.21-08.57.55:725][161]LogBlueprint: Warning: Blueprint /Game/Blueprints/Add-ons/EasyQuests/Tutorials/BP_HowToIntegrateToYourOwnCharacter is missing GeneratedClass asset tag
+[2025.04.21-08.57.55:725][161]LogBlueprint: Warning: Blueprint /Game/Blueprints/Add-ons/EasyQuests/Tutorials/BP_HowToAddQuestsToNPC is missing GeneratedClass asset tag
+[2025.04.21-08.57.56:410][237]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-08.57.56:441][237]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Global_QI_Manager] ([2] browsable assets)...
+[2025.04.21-08.57.56:441][237]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Global_QI_Manager]
+[2025.04.21-08.57.56:468][237]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Global_QI_Manager
+[2025.04.21-08.57.56:468][237]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/BP_Global_QI_ManagerDE101E2E45C145FE91CF7D9A9009B279.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/BP_Global_QI_Manager.uasset'
+[2025.04.21-08.57.56:477][237]LogFileHelpers: InternalPromptForCheckoutAndSave took 66.702 ms (total: 5.57 sec)
+[2025.04.21-08.57.56:515][237]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-08.57.56:515][237]LogContentValidation: Enabled validators:
+[2025.04.21-08.57.56:515][237]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-08.57.56:515][237]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-08.57.56:515][237]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-08.57.56:515][237]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-08.57.56:515][237]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-08.57.56:515][237]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-08.57.56:515][237]AssetCheck: /Game/Blueprints/BP_Global_QI_Manager Validating asset
+[2025.04.21-08.58.05:643][314]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.04.21-08.58.05:691][314]LogBlueprint: Warning: Blueprint /Game/Blueprints/Add-ons/EasyQuests/Tutorials/BP_HowToProcessObjectives is missing GeneratedClass asset tag
+[2025.04.21-08.58.05:691][314]LogBlueprint: Warning: Blueprint /Game/Blueprints/Add-ons/EasyQuests/Tutorials/BP_HowToMakeYourOwnQuests is missing GeneratedClass asset tag
+[2025.04.21-08.58.05:691][314]LogBlueprint: Warning: Blueprint /Game/Blueprints/Add-ons/EasyQuests/Tutorials/BP_HowToIntegrateToYourOwnCharacter is missing GeneratedClass asset tag
+[2025.04.21-08.58.05:691][314]LogBlueprint: Warning: Blueprint /Game/Blueprints/Add-ons/EasyQuests/Tutorials/BP_HowToAddQuestsToNPC is missing GeneratedClass asset tag
+[2025.04.21-08.58.06:465][400]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-08.58.06:499][400]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Global_QI_Manager] ([2] browsable assets)...
+[2025.04.21-08.58.06:499][400]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Global_QI_Manager]
+[2025.04.21-08.58.06:525][400]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Global_QI_Manager
+[2025.04.21-08.58.06:525][400]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/BP_Global_QI_Manager1032D06A47D00CBDD9C5B08E3CC5AFC5.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/BP_Global_QI_Manager.uasset'
+[2025.04.21-08.58.06:533][400]LogFileHelpers: InternalPromptForCheckoutAndSave took 68.580 ms (total: 5.64 sec)
+[2025.04.21-08.58.06:563][400]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-08.58.06:563][400]LogContentValidation: Enabled validators:
+[2025.04.21-08.58.06:563][400]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-08.58.06:563][400]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-08.58.06:563][400]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-08.58.06:563][400]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-08.58.06:563][400]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-08.58.06:563][400]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-08.58.06:563][400]AssetCheck: /Game/Blueprints/BP_Global_QI_Manager Validating asset
+[2025.04.21-08.58.10:958][899]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 48884.859375
+[2025.04.21-08.58.11:101][916]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-08.58.11:101][916]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 48884.984375, Update Interval: 333.386627
+[2025.04.21-08.59.16:688][552]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Handlers/BP_QuestHandlerComponent.BP_QuestHandlerComponent
+[2025.04.21-08.59.16:688][552]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_57
+[2025.04.21-08.59.56:167][236]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.04.21-09.00.28:505][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.04.21-09.00.28:975][ 97]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-09.00.28:999][ 97]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mountea_Dialogue/Decarators/BPD_CompleteObjective] ([2] browsable assets)...
+[2025.04.21-09.00.28:999][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mountea_Dialogue/Decarators/BPD_CompleteObjective]
+[2025.04.21-09.00.29:003][ 97]LogSavePackage: Moving output files for package: /Game/Blueprints/Mountea_Dialogue/Decarators/BPD_CompleteObjective
+[2025.04.21-09.00.29:003][ 97]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/BPD_CompleteObjective7EEAE3934BCF3D0228608EAE5B1C3D24.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/Mountea_Dialogue/Decarators/BPD_CompleteObjective.uasset'
+[2025.04.21-09.00.29:010][ 97]LogFileHelpers: InternalPromptForCheckoutAndSave took 35.625 ms (total: 5.68 sec)
+[2025.04.21-09.00.29:039][ 97]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-09.00.29:039][ 97]LogContentValidation: Enabled validators:
+[2025.04.21-09.00.29:039][ 97]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-09.00.29:039][ 97]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-09.00.29:039][ 97]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-09.00.29:039][ 97]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-09.00.29:039][ 97]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-09.00.29:039][ 97]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-09.00.29:039][ 97]AssetCheck: /Game/Blueprints/Mountea_Dialogue/Decarators/BPD_CompleteObjective Validating asset
+[2025.04.21-09.01.08:920][755]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.04.21-09.01.09:882][865]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-09.01.09:914][865]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mountea_Dialogue/Decarators/BPD_StartQuest] ([2] browsable assets)...
+[2025.04.21-09.01.09:914][865]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mountea_Dialogue/Decarators/BPD_StartQuest]
+[2025.04.21-09.01.09:918][865]LogSavePackage: Moving output files for package: /Game/Blueprints/Mountea_Dialogue/Decarators/BPD_StartQuest
+[2025.04.21-09.01.09:918][865]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/BPD_StartQuest17CEFC224B09A073BAAE74A4C269FEB1.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/Mountea_Dialogue/Decarators/BPD_StartQuest.uasset'
+[2025.04.21-09.01.09:925][865]LogFileHelpers: InternalPromptForCheckoutAndSave took 43.263 ms (total: 5.72 sec)
+[2025.04.21-09.01.09:958][865]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-09.01.09:958][865]LogContentValidation: Enabled validators:
+[2025.04.21-09.01.09:958][865]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-09.01.09:958][865]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-09.01.09:958][865]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-09.01.09:958][865]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-09.01.09:958][865]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-09.01.09:958][865]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-09.01.09:958][865]AssetCheck: /Game/Blueprints/Mountea_Dialogue/Decarators/BPD_StartQuest Validating asset
+[2025.04.21-09.01.16:823][661]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.04.21-09.01.16:914][661]LogBlueprint: Warning: Blueprint /Game/Blueprints/Add-ons/EasyQuests/Tutorials/BP_HowToProcessObjectives is missing GeneratedClass asset tag
+[2025.04.21-09.01.16:914][661]LogBlueprint: Warning: Blueprint /Game/Blueprints/Add-ons/EasyQuests/Tutorials/BP_HowToMakeYourOwnQuests is missing GeneratedClass asset tag
+[2025.04.21-09.01.16:914][661]LogBlueprint: Warning: Blueprint /Game/Blueprints/Add-ons/EasyQuests/Tutorials/BP_HowToIntegrateToYourOwnCharacter is missing GeneratedClass asset tag
+[2025.04.21-09.01.16:914][661]LogBlueprint: Warning: Blueprint /Game/Blueprints/Add-ons/EasyQuests/Tutorials/BP_HowToAddQuestsToNPC is missing GeneratedClass asset tag
+[2025.04.21-09.01.17:487][723]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-09.01.17:511][723]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Global_QI_Manager] ([2] browsable assets)...
+[2025.04.21-09.01.17:511][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Global_QI_Manager]
+[2025.04.21-09.01.17:538][723]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Global_QI_Manager
+[2025.04.21-09.01.17:539][723]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/BP_Global_QI_ManagerB175417048A3199B2CB3BCAF42621571.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/BP_Global_QI_Manager.uasset'
+[2025.04.21-09.01.17:547][723]LogFileHelpers: InternalPromptForCheckoutAndSave took 60.344 ms (total: 5.78 sec)
+[2025.04.21-09.01.17:585][723]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-09.01.17:586][723]LogContentValidation: Enabled validators:
+[2025.04.21-09.01.17:586][723]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-09.01.17:586][723]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-09.01.17:586][723]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-09.01.17:586][723]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-09.01.17:586][723]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-09.01.17:586][723]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-09.01.17:586][723]AssetCheck: /Game/Blueprints/BP_Global_QI_Manager Validating asset
+[2025.04.21-09.02.10:531][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.04.21-09.02.10:579][ 54]LogBlueprint: Warning: Blueprint /Game/Blueprints/Add-ons/EasyQuests/Tutorials/BP_HowToProcessObjectives is missing GeneratedClass asset tag
+[2025.04.21-09.02.10:579][ 54]LogBlueprint: Warning: Blueprint /Game/Blueprints/Add-ons/EasyQuests/Tutorials/BP_HowToMakeYourOwnQuests is missing GeneratedClass asset tag
+[2025.04.21-09.02.10:579][ 54]LogBlueprint: Warning: Blueprint /Game/Blueprints/Add-ons/EasyQuests/Tutorials/BP_HowToIntegrateToYourOwnCharacter is missing GeneratedClass asset tag
+[2025.04.21-09.02.10:579][ 54]LogBlueprint: Warning: Blueprint /Game/Blueprints/Add-ons/EasyQuests/Tutorials/BP_HowToAddQuestsToNPC is missing GeneratedClass asset tag
+[2025.04.21-09.02.11:460][155]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-09.02.11:494][155]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Handlers/BP_QuestHandlerComponent] ([2] browsable assets)...
+[2025.04.21-09.02.11:495][155]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Handlers/BP_QuestHandlerComponent]
+[2025.04.21-09.02.11:500][155]LogSavePackage: Moving output files for package: /Game/Blueprints/Handlers/BP_QuestHandlerComponent
+[2025.04.21-09.02.11:501][155]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/BP_QuestHandlerComponent222FEBDC444A28F55C8962BB77DDAB98.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/Handlers/BP_QuestHandlerComponent.uasset'
+[2025.04.21-09.02.11:508][155]LogFileHelpers: InternalPromptForCheckoutAndSave took 47.979 ms (total: 5.83 sec)
+[2025.04.21-09.02.11:538][155]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-09.02.11:538][155]LogContentValidation: Enabled validators:
+[2025.04.21-09.02.11:538][155]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-09.02.11:538][155]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-09.02.11:538][155]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-09.02.11:538][155]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-09.02.11:538][155]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-09.02.11:538][155]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-09.02.11:539][155]AssetCheck: /Game/Blueprints/Handlers/BP_QuestHandlerComponent Validating asset
+[2025.04.21-09.03.44:336][200]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.04.21-09.03.44:882][260]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-09.03.44:918][260]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mountea_Dialogue/Decarators/BPD_CompleteObjective] ([2] browsable assets)...
+[2025.04.21-09.03.44:918][260]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mountea_Dialogue/Decarators/BPD_CompleteObjective]
+[2025.04.21-09.03.44:921][260]LogSavePackage: Moving output files for package: /Game/Blueprints/Mountea_Dialogue/Decarators/BPD_CompleteObjective
+[2025.04.21-09.03.44:921][260]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/BPD_CompleteObjectiveA0E5841F4A0945171ABDFB963B9C7B7A.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/Mountea_Dialogue/Decarators/BPD_CompleteObjective.uasset'
+[2025.04.21-09.03.44:930][260]LogFileHelpers: InternalPromptForCheckoutAndSave took 48.521 ms (total: 5.88 sec)
+[2025.04.21-09.03.44:964][260]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-09.03.44:964][260]LogContentValidation: Enabled validators:
+[2025.04.21-09.03.44:964][260]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-09.03.44:964][260]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-09.03.44:964][260]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-09.03.44:964][260]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-09.03.44:964][260]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-09.03.44:964][260]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-09.03.44:964][260]AssetCheck: /Game/Blueprints/Mountea_Dialogue/Decarators/BPD_CompleteObjective Validating asset
+[2025.04.21-09.03.49:105][731]LogWorld: UWorld::CleanupWorld for World_55, bSessionEnded=true, bCleanupResources=true
+[2025.04.21-09.03.49:105][731]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.21-09.03.49:152][731]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.04.21-09.04.07:748][901]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.04.21-09.04.33:094][632]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.04.21-09.04.33:831][710]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.04.21-09.04.33:834][710]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/InitMap' took 0.016
+[2025.04.21-09.04.33:834][710]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mountea_Dialogue/Decarators/BPD_StartQuest] ([2] browsable assets)...
+[2025.04.21-09.04.33:834][710]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mountea_Dialogue/Decarators/BPD_StartQuest]
+[2025.04.21-09.04.33:838][710]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Mountea_Dialogue/Decarators/BPD_StartQuest_Auto3
+[2025.04.21-09.04.33:838][710]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/BPD_StartQuest_Auto391EB7AFF4854C32BE134549CAE378FB7.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/Autosaves/Game/Blueprints/Mountea_Dialogue/Decarators/BPD_StartQuest_Auto3.uasset'
+[2025.04.21-09.04.33:838][710]LogFileHelpers: Auto-saving content packages took 0.004
+[2025.04.21-09.04.35:263][876]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 49253.550781
+[2025.04.21-09.04.35:422][895]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-09.04.35:422][895]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 49253.691406, Update Interval: 335.699341
+[2025.04.21-09.04.35:656][923]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-09.04.35:681][923]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mountea_Dialogue/Decarators/BPD_StartQuest] ([2] browsable assets)...
+[2025.04.21-09.04.35:681][923]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mountea_Dialogue/Decarators/BPD_StartQuest]
+[2025.04.21-09.04.35:684][923]LogSavePackage: Moving output files for package: /Game/Blueprints/Mountea_Dialogue/Decarators/BPD_StartQuest
+[2025.04.21-09.04.35:684][923]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/BPD_StartQuest344781EF4953078800DBCDABBACE216C.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/Mountea_Dialogue/Decarators/BPD_StartQuest.uasset'
+[2025.04.21-09.04.35:692][923]LogFileHelpers: InternalPromptForCheckoutAndSave took 35.778 ms (total: 5.91 sec)
+[2025.04.21-09.04.35:723][923]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-09.04.35:723][923]LogContentValidation: Enabled validators:
+[2025.04.21-09.04.35:723][923]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-09.04.35:723][923]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-09.04.35:723][923]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-09.04.35:723][923]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-09.04.35:723][923]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-09.04.35:723][923]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-09.04.35:723][923]AssetCheck: /Game/Blueprints/Mountea_Dialogue/Decarators/BPD_StartQuest Validating asset
+[2025.04.21-09.04.36:193][975]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.04.21-09.05.29:095][113]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-09.05.29:132][113]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mountea_Dialogue/DataTables/DT_DialogueQuest_List] ([1] browsable assets)...
+[2025.04.21-09.05.29:132][113]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mountea_Dialogue/DataTables/DT_DialogueQuest_List]
+[2025.04.21-09.05.29:132][113]LogSavePackage: Moving output files for package: /Game/Blueprints/Mountea_Dialogue/DataTables/DT_DialogueQuest_List
+[2025.04.21-09.05.29:132][113]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/DT_DialogueQuest_List84BEE7AF4719BA4F06F6E2920D8B43D0.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/Mountea_Dialogue/DataTables/DT_DialogueQuest_List.uasset'
+[2025.04.21-09.05.29:138][113]LogFileHelpers: InternalPromptForCheckoutAndSave took 43.109 ms (total: 5.96 sec)
+[2025.04.21-09.05.29:170][113]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-09.05.29:170][113]LogContentValidation: Enabled validators:
+[2025.04.21-09.05.29:170][113]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-09.05.29:170][113]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-09.05.29:170][113]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-09.05.29:170][113]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-09.05.29:170][113]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-09.05.29:170][113]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-09.05.29:171][113]AssetCheck: /Game/Blueprints/Mountea_Dialogue/DataTables/DT_DialogueQuest_List Validating asset
+[2025.04.21-09.09.47:178][825]LogStreaming: Display: FlushAsyncLoading(641): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.21-09.09.47:180][825]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/EasyQuests/Blueprints/Structures/E_Areas.E_Areas
+[2025.04.21-09.09.51:656][326]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
+[2025.04.21-09.09.51:656][326]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.21-09.09.51:759][326]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.04.21-09.09.54:078][585]LogStreaming: Display: FlushAsyncLoading(642): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.21-09.09.54:079][585]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/EasyQuests/Blueprints/Structures/E_QuestCategory.E_QuestCategory
+[2025.04.21-09.10.02:297][503]LogStreaming: Display: FlushAsyncLoading(643): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.21-09.10.02:300][503]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/EasyQuests/Blueprints/Datatables/DT_Quests.DT_Quests
+[2025.04.21-09.10.52:729][215]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 49624.777344
+[2025.04.21-09.10.52:888][234]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-09.10.52:888][235]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 49624.929688, Update Interval: 301.752380
+[2025.04.21-09.11.01:849][245]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-09.11.01:886][245]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/EasyQuests/Blueprints/Datatables/DT_Quests] ([1] browsable assets)...
+[2025.04.21-09.11.01:886][245]OBJ SavePackage: Finished generating thumbnails for package [/Game/EasyQuests/Blueprints/Datatables/DT_Quests]
+[2025.04.21-09.11.01:887][245]LogSavePackage: Moving output files for package: /Game/EasyQuests/Blueprints/Datatables/DT_Quests
+[2025.04.21-09.11.01:887][245]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/DT_Quests6F37893E4BCE4B67552B20A223F1DB23.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/EasyQuests/Blueprints/Datatables/DT_Quests.uasset'
+[2025.04.21-09.11.01:895][245]LogFileHelpers: InternalPromptForCheckoutAndSave took 45.553 ms (total: 6.00 sec)
+[2025.04.21-09.11.01:927][245]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-09.11.01:927][245]LogContentValidation: Enabled validators:
+[2025.04.21-09.11.01:927][245]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-09.11.01:927][245]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-09.11.01:927][245]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-09.11.01:927][245]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-09.11.01:927][245]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-09.11.01:927][245]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-09.11.01:927][245]AssetCheck: /Game/EasyQuests/Blueprints/Datatables/DT_Quests Validating asset
+[2025.04.21-09.11.23:308][795]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-09.11.23:346][795]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/EasyQuests/Blueprints/Datatables/DT_Quests] ([1] browsable assets)...
+[2025.04.21-09.11.23:346][795]OBJ SavePackage: Finished generating thumbnails for package [/Game/EasyQuests/Blueprints/Datatables/DT_Quests]
+[2025.04.21-09.11.23:347][795]LogSavePackage: Moving output files for package: /Game/EasyQuests/Blueprints/Datatables/DT_Quests
+[2025.04.21-09.11.23:347][795]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/DT_Quests1D811FDC4E59A75B7C16EB86DE5F138B.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/EasyQuests/Blueprints/Datatables/DT_Quests.uasset'
+[2025.04.21-09.11.23:353][795]LogFileHelpers: InternalPromptForCheckoutAndSave took 45.078 ms (total: 6.05 sec)
+[2025.04.21-09.11.23:389][795]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-09.11.23:389][795]LogContentValidation: Enabled validators:
+[2025.04.21-09.11.23:389][795]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-09.11.23:389][795]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-09.11.23:389][795]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-09.11.23:389][795]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-09.11.23:389][795]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-09.11.23:389][795]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-09.11.23:389][795]AssetCheck: /Game/EasyQuests/Blueprints/Datatables/DT_Quests Validating asset
+[2025.04.21-09.12.04:614][166]LogContentBrowser: Deferred new asset file creation: D_MounteaTestDialogue1
+[2025.04.21-09.12.04:619][166]LogContentBrowser: Creating deferred item: D_MounteaTestDialogue1
+[2025.04.21-09.12.04:630][167]LogContentBrowser: Renaming the item being created (Deferred Item: D_MounteaTestDialogue1).
+[2025.04.21-09.12.18:632][783]LogContentBrowser: Attempting asset rename: D_MounteaTestDialogue1 -> D_MainQuests_DialogueTree
+[2025.04.21-09.12.18:635][783]LogContentBrowser: End creating deferred item D_MounteaTestDialogue1
+[2025.04.21-09.12.20:720][  8]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.04.21-09.12.20:724][  8]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-09.12.20:764][  8]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mountea_Dialogue/D_MainQuests_DialogueTree] ([1] browsable assets)...
+[2025.04.21-09.12.20:764][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mountea_Dialogue/D_MainQuests_DialogueTree]
+[2025.04.21-09.12.20:767][  8]LogSavePackage: Moving output files for package: /Game/Blueprints/Mountea_Dialogue/D_MainQuests_DialogueTree
+[2025.04.21-09.12.20:767][  8]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/D_MainQuests_DialogueTree79DE8E3049D1E7E3FB0E0F8CED37FB2B.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/Mountea_Dialogue/D_MainQuests_DialogueTree.uasset'
+[2025.04.21-09.12.20:776][  8]LogFileHelpers: InternalPromptForCheckoutAndSave took 51.682 ms (total: 6.10 sec)
+[2025.04.21-09.12.20:800][  8]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-09.12.20:800][  8]LogContentValidation: Enabled validators:
+[2025.04.21-09.12.20:800][  8]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-09.12.20:800][  8]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-09.12.20:800][  8]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-09.12.20:800][  8]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-09.12.20:800][  8]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-09.12.20:800][  8]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-09.12.20:800][  8]AssetCheck: /Game/Blueprints/Mountea_Dialogue/D_MainQuests_DialogueTree Validating asset
+[2025.04.21-09.12.27:230][732]LogAssetEditorSubsystem: Opening Asset editor for MounteaDialogueGraph /Game/Blueprints/Mountea_Dialogue/D_MainQuests_DialogueTree.D_MainQuests_DialogueTree
+[2025.04.21-09.12.46:225][400]LogContentBrowser: Attempting asset rename: D_MainQuests_DialogueTree -> D_MQD-01
+[2025.04.21-09.12.46:292][400]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-09.12.46:292][400]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mountea_Dialogue/D_MQD-01] ([1] browsable assets)...
+[2025.04.21-09.12.46:292][400]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mountea_Dialogue/D_MQD-01]
+[2025.04.21-09.12.46:293][400]LogSavePackage: Moving output files for package: /Game/Blueprints/Mountea_Dialogue/D_MQD-01
+[2025.04.21-09.12.46:293][400]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/D_MQD-01462AC46B4F38F4093573518251042705.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/Mountea_Dialogue/D_MQD-01.uasset'
+[2025.04.21-09.12.46:295][400]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.026 ms (total: 6.10 sec)
+[2025.04.21-09.12.46:363][400]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.04.21-09.12.46:382][400]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.04.21-09.12.46:401][400]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.04.21-09.12.46:447][400]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-09.12.46:447][400]LogContentValidation: Enabled validators:
+[2025.04.21-09.12.46:447][400]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-09.12.46:447][400]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-09.12.46:447][400]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-09.12.46:447][400]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-09.12.46:447][400]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-09.12.46:447][400]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-09.12.46:447][400]AssetCheck: /Game/Blueprints/Mountea_Dialogue/D_MQD-01 Validating asset
+[2025.04.21-09.12.49:755][745]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.04.21-09.12.49:778][745]LogContentBrowser: Creating deferred item: NewFolder
+[2025.04.21-09.12.49:788][746]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.04.21-09.12.53:991][236]LogContentBrowser: Attempting asset rename: NewFolder -> QuestsDialogue
+[2025.04.21-09.12.53:991][236]LogContentBrowser: End creating deferred item NewFolder
+[2025.04.21-09.12.57:625][608]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-09.12.57:625][608]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01] ([1] browsable assets)...
+[2025.04.21-09.12.57:625][608]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01]
+[2025.04.21-09.12.57:627][608]LogSavePackage: Moving output files for package: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01
+[2025.04.21-09.12.57:627][608]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/D_MQD-011AE6AF804EBB08D788B2E5ACD277A20F.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01.uasset'
+[2025.04.21-09.12.57:627][608]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.940 ms (total: 6.11 sec)
+[2025.04.21-09.12.57:696][608]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.04.21-09.12.57:711][608]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.04.21-09.12.57:725][608]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.04.21-09.12.57:752][608]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.04.21-09.12.57:752][608]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-09.12.57:752][608]LogContentValidation: Enabled validators:
+[2025.04.21-09.12.57:752][608]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-09.12.57:752][608]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-09.12.57:752][608]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-09.12.57:752][608]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-09.12.57:752][608]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-09.12.57:752][608]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-09.12.57:753][608]AssetCheck: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01 Validating asset
+[2025.04.21-09.13.01:767][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.04.21-09.13.39:305][500]LogAssetEditorSubsystem: Opening Asset editor for MounteaDialogueGraph /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01.D_MQD-01
+[2025.04.21-09.14.04:008][669]LogMounteaDialogueSystem: Error: [GetDialogueRow] Node Lead Node has empty Data Table!
+[2025.04.21-09.14.04:008][669]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Lead Node has empty Data Table!
+[2025.04.21-09.14.04:010][669]LogMounteaDialogueSystem: Error: [GetDialogueRow] Node Lead Node has empty Data Table!
+[2025.04.21-09.14.04:010][669]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Lead Node has empty Data Table!
+[2025.04.21-09.14.09:087][270]Cmd: TRANSACTION UNDO
+[2025.04.21-09.14.09:087][270]LogEditorTransaction: Undo Mountea Diaogue Editor: Rename Node
+[2025.04.21-09.14.10:781][433]LogMounteaDialogueSystem: Error: [GetDialogueRow] Node Lead Node has empty Data Table!
+[2025.04.21-09.14.10:781][433]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Lead Node has empty Data Table!
+[2025.04.21-09.14.10:783][433]LogMounteaDialogueSystem: Error: [GetDialogueRow] Node Lead Node has empty Data Table!
+[2025.04.21-09.14.10:783][433]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Lead Node has empty Data Table!
+[2025.04.21-09.14.14:522][861]LogMounteaDialogueSystem: Error: [GetDialogueRow] Node Lead Node has empty Data Table!
+[2025.04.21-09.14.14:522][861]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Lead Node has empty Data Table!
+[2025.04.21-09.14.14:523][861]LogMounteaDialogueSystem: Error: [GetDialogueRow] Node Lead Node has empty Data Table!
+[2025.04.21-09.14.14:523][861]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Lead Node has empty Data Table!
+[2025.04.21-09.14.30:492][748]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-09.14.30:518][748]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01] ([1] browsable assets)...
+[2025.04.21-09.14.30:518][748]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01]
+[2025.04.21-09.14.30:520][748]LogSavePackage: Moving output files for package: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01
+[2025.04.21-09.14.30:521][748]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/D_MQD-016E4F3FC641A16345EF45D9BBDAC598F5.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01.uasset'
+[2025.04.21-09.14.30:527][748]LogFileHelpers: InternalPromptForCheckoutAndSave took 34.632 ms (total: 6.14 sec)
+[2025.04.21-09.14.30:561][748]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-09.14.30:561][748]LogContentValidation: Enabled validators:
+[2025.04.21-09.14.30:561][748]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-09.14.30:561][748]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-09.14.30:561][748]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-09.14.30:561][748]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-09.14.30:561][748]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-09.14.30:561][748]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-09.14.30:561][748]AssetCheck: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01 Validating asset
+[2025.04.21-09.14.33:150][ 48]LogMounteaDialogueSystem: Error: [GetDialogueRow] Node Lead Node has empty Data Table!
+[2025.04.21-09.14.33:150][ 48]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Lead Node has empty Data Table!
+[2025.04.21-09.14.33:152][ 48]LogMounteaDialogueSystem: Error: [GetDialogueRow] Node Lead Node has empty Data Table!
+[2025.04.21-09.14.33:152][ 48]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Lead Node has empty Data Table!
+[2025.04.21-09.15.11:213][403]LogContentBrowser: Attempting asset rename: DT_TestDialogue -> DT_MainQuests
+[2025.04.21-09.15.11:267][403]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-09.15.11:267][403]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests] ([1] browsable assets)...
+[2025.04.21-09.15.11:267][403]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests]
+[2025.04.21-09.15.11:268][403]LogSavePackage: Moving output files for package: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests
+[2025.04.21-09.15.11:268][403]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/DT_MainQuests2604DD894F494F43B670FDAADA7AE49C.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests.uasset'
+[2025.04.21-09.15.11:269][403]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.808 ms (total: 6.14 sec)
+[2025.04.21-09.15.11:338][403]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.04.21-09.15.11:355][403]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.04.21-09.15.11:369][403]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.04.21-09.15.11:413][403]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-09.15.11:413][403]LogContentValidation: Enabled validators:
+[2025.04.21-09.15.11:413][403]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-09.15.11:413][403]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-09.15.11:413][403]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-09.15.11:413][403]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-09.15.11:413][403]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-09.15.11:413][403]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-09.15.11:413][403]AssetCheck: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests Validating asset
+[2025.04.21-09.15.12:489][521]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests.DT_MainQuests
+[2025.04.21-09.15.30:889][700]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-09.15.30:919][700]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01] ([1] browsable assets)...
+[2025.04.21-09.15.30:919][700]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01]
+[2025.04.21-09.15.30:921][700]LogSavePackage: Moving output files for package: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01
+[2025.04.21-09.15.30:921][700]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/D_MQD-01C01799484E2DCE36E67EC290E3F32B6E.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01.uasset'
+[2025.04.21-09.15.30:928][700]LogFileHelpers: InternalPromptForCheckoutAndSave took 38.982 ms (total: 6.18 sec)
+[2025.04.21-09.15.30:956][700]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-09.15.30:956][700]LogContentValidation: Enabled validators:
+[2025.04.21-09.15.30:956][700]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-09.15.30:956][700]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-09.15.30:956][700]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-09.15.30:956][700]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-09.15.30:956][700]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-09.15.30:956][700]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-09.15.30:956][700]AssetCheck: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01 Validating asset
+[2025.04.21-09.15.31:222][725]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.04.21-09.16.13:588][ 35]LogDerivedDataCache: C:/Users/sinan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.04.21-09.16.39:144][111]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 49963.519531
+[2025.04.21-09.16.40:143][114]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-09.16.40:143][114]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 49964.187500, Update Interval: 326.761688
+[2025.04.21-09.22.42:609][508]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 50320.394531
+[2025.04.21-09.22.42:758][526]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-09.22.42:758][526]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 50320.531250, Update Interval: 316.767487
+[2025.04.21-09.23.23:227][260]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-09.23.23:251][260]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests] ([1] browsable assets)...
+[2025.04.21-09.23.23:251][260]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests]
+[2025.04.21-09.23.23:252][260]LogSavePackage: Moving output files for package: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests
+[2025.04.21-09.23.23:252][260]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/DT_MainQuests2B3A5C3746608F056320FC9A52AC7B05.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests.uasset'
+[2025.04.21-09.23.23:259][260]LogFileHelpers: InternalPromptForCheckoutAndSave took 31.934 ms (total: 6.21 sec)
+[2025.04.21-09.23.23:295][260]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-09.23.23:295][260]LogContentValidation: Enabled validators:
+[2025.04.21-09.23.23:295][260]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-09.23.23:295][260]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-09.23.23:295][260]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-09.23.23:295][260]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-09.23.23:295][260]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-09.23.23:295][260]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-09.23.23:295][260]AssetCheck: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests Validating asset
+[2025.04.21-09.23.28:491][879]LogMounteaDialogueSystem: Error: [GetDialogueRow] Node Lead Node has empty Data Table!
+[2025.04.21-09.23.28:491][879]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Lead Node has empty Data Table!
+[2025.04.21-09.23.28:493][879]LogMounteaDialogueSystem: Error: [GetDialogueRow] Node Lead Node has empty Data Table!
+[2025.04.21-09.23.28:493][879]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Lead Node has empty Data Table!
+[2025.04.21-09.23.35:133][632]LogDataTable: Warning: UDataTable::FindRow : '' requested invalid row 'None' from DataTable '/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests.DT_MainQuests'.
+[2025.04.21-09.23.35:133][632]LogMounteaDialogueSystem: Warning: [GetDialogueRow] Node Lead Node has no Row Data by ID: None!
+[2025.04.21-09.23.35:133][632]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Lead Node has no Row Data by ID: None!
+[2025.04.21-09.23.35:134][632]LogDataTable: Warning: UDataTable::FindRow : '' requested invalid row 'None' from DataTable '/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests.DT_MainQuests'.
+[2025.04.21-09.23.35:134][632]LogMounteaDialogueSystem: Warning: [GetDialogueRow] Node Lead Node has no Row Data by ID: None!
+[2025.04.21-09.23.35:134][632]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Lead Node has no Row Data by ID: None!
+[2025.04.21-09.24.11:763][952]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-09.24.11:799][952]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests] ([1] browsable assets)...
+[2025.04.21-09.24.11:799][952]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests]
+[2025.04.21-09.24.11:800][952]LogSavePackage: Moving output files for package: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests
+[2025.04.21-09.24.11:800][952]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/DT_MainQuestsCDFCFB534D4E7CCC401F8A889BD1DB8E.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests.uasset'
+[2025.04.21-09.24.11:809][952]LogFileHelpers: InternalPromptForCheckoutAndSave took 45.211 ms (total: 6.26 sec)
+[2025.04.21-09.24.11:841][952]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-09.24.11:841][952]LogContentValidation: Enabled validators:
+[2025.04.21-09.24.11:841][952]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-09.24.11:841][952]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-09.24.11:841][952]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-09.24.11:841][952]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-09.24.11:841][952]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-09.24.11:841][952]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-09.24.11:841][952]AssetCheck: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests Validating asset
+[2025.04.21-09.24.13:997][208]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.04.21-09.24.14:001][208]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-09.24.14:031][208]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01] ([1] browsable assets)...
+[2025.04.21-09.24.14:031][208]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01]
+[2025.04.21-09.24.14:033][208]LogSavePackage: Moving output files for package: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01
+[2025.04.21-09.24.14:033][208]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/D_MQD-01F1A804F84F391D515C95EDAC7CD00575.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01.uasset'
+[2025.04.21-09.24.14:043][208]LogFileHelpers: InternalPromptForCheckoutAndSave took 41.930 ms (total: 6.30 sec)
+[2025.04.21-09.24.14:079][208]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-09.24.14:079][208]LogContentValidation: Enabled validators:
+[2025.04.21-09.24.14:079][208]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-09.24.14:079][208]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-09.24.14:079][208]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-09.24.14:079][208]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-09.24.14:079][208]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-09.24.14:079][208]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-09.24.14:079][208]AssetCheck: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01 Validating asset
+[2025.04.21-09.24.20:437][964]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-09.24.20:466][964]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01] ([1] browsable assets)...
+[2025.04.21-09.24.20:466][964]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01]
+[2025.04.21-09.24.20:468][964]LogSavePackage: Moving output files for package: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01
+[2025.04.21-09.24.20:468][964]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/D_MQD-01FEBB001A46F9639EDF1804AEDFCAF95B.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01.uasset'
+[2025.04.21-09.24.20:475][964]LogFileHelpers: InternalPromptForCheckoutAndSave took 39.743 ms (total: 6.34 sec)
+[2025.04.21-09.24.20:501][964]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-09.24.20:501][964]LogContentValidation: Enabled validators:
+[2025.04.21-09.24.20:501][964]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-09.24.20:501][964]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-09.24.20:501][964]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-09.24.20:501][964]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-09.24.20:501][964]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-09.24.20:501][964]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-09.24.20:501][964]AssetCheck: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01 Validating asset
+[2025.04.21-09.24.25:905][597]LogMounteaDialogueSystem: Error: [GetDialogueRow] Node Answer Node has empty Data Table!
+[2025.04.21-09.24.25:905][597]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Answer Node has empty Data Table!
+[2025.04.21-09.24.25:906][597]LogMounteaDialogueSystem: Error: [GetDialogueRow] Node Answer Node has empty Data Table!
+[2025.04.21-09.24.25:906][597]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Answer Node has empty Data Table!
+[2025.04.21-09.24.30:620][150]LogDataTable: Warning: UDataTable::FindRow : '' requested invalid row 'None' from DataTable '/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests.DT_MainQuests'.
+[2025.04.21-09.24.30:620][150]LogMounteaDialogueSystem: Warning: [GetDialogueRow] Node Answer Node has no Row Data by ID: None!
+[2025.04.21-09.24.30:621][150]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Answer Node has no Row Data by ID: None!
+[2025.04.21-09.24.30:621][150]LogDataTable: Warning: UDataTable::FindRow : '' requested invalid row 'None' from DataTable '/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests.DT_MainQuests'.
+[2025.04.21-09.24.30:621][150]LogMounteaDialogueSystem: Warning: [GetDialogueRow] Node Answer Node has no Row Data by ID: None!
+[2025.04.21-09.24.30:622][150]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Answer Node has no Row Data by ID: None!
+[2025.04.21-09.24.36:573][839]LogMounteaDialogueSystem: Error: [GetDialogueRow] Node Lead Node has empty Data Table!
+[2025.04.21-09.24.36:573][839]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Lead Node has empty Data Table!
+[2025.04.21-09.24.36:574][839]LogMounteaDialogueSystem: Error: [GetDialogueRow] Node Lead Node has empty Data Table!
+[2025.04.21-09.24.36:574][839]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Lead Node has empty Data Table!
+[2025.04.21-09.24.38:596][ 72]LogDataTable: Warning: UDataTable::FindRow : '' requested invalid row 'None' from DataTable '/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests.DT_MainQuests'.
+[2025.04.21-09.24.38:596][ 72]LogMounteaDialogueSystem: Warning: [GetDialogueRow] Node Lead Node has no Row Data by ID: None!
+[2025.04.21-09.24.38:596][ 72]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Lead Node has no Row Data by ID: None!
+[2025.04.21-09.24.38:596][ 72]LogDataTable: Warning: UDataTable::FindRow : '' requested invalid row 'None' from DataTable '/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests.DT_MainQuests'.
+[2025.04.21-09.24.38:596][ 72]LogMounteaDialogueSystem: Warning: [GetDialogueRow] Node Lead Node has no Row Data by ID: None!
+[2025.04.21-09.24.38:596][ 72]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Lead Node has no Row Data by ID: None!
+[2025.04.21-09.24.44:331][736]LogMounteaDialogueSystem: Error: [GetDialogueRow] Node Answer Node has empty Data Table!
+[2025.04.21-09.24.44:331][736]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Answer Node has empty Data Table!
+[2025.04.21-09.24.44:332][736]LogMounteaDialogueSystem: Error: [GetDialogueRow] Node Answer Node has empty Data Table!
+[2025.04.21-09.24.44:332][736]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Answer Node has empty Data Table!
+[2025.04.21-09.24.46:579][998]LogDataTable: Warning: UDataTable::FindRow : '' requested invalid row 'None' from DataTable '/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests.DT_MainQuests'.
+[2025.04.21-09.24.46:580][998]LogMounteaDialogueSystem: Warning: [GetDialogueRow] Node Answer Node has no Row Data by ID: None!
+[2025.04.21-09.24.46:580][998]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Answer Node has no Row Data by ID: None!
+[2025.04.21-09.24.46:580][998]LogDataTable: Warning: UDataTable::FindRow : '' requested invalid row 'None' from DataTable '/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests.DT_MainQuests'.
+[2025.04.21-09.24.46:581][998]LogMounteaDialogueSystem: Warning: [GetDialogueRow] Node Answer Node has no Row Data by ID: None!
+[2025.04.21-09.24.46:581][998]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Answer Node has no Row Data by ID: None!
+[2025.04.21-09.24.50:911][494]LogMounteaDialogueSystem: Error: [GetDialogueRow] Node Complete Dialogue has empty Data Table!
+[2025.04.21-09.24.50:911][494]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Complete Dialogue has empty Data Table!
+[2025.04.21-09.24.50:912][494]LogMounteaDialogueSystem: Error: [GetDialogueRow] Node Complete Dialogue has empty Data Table!
+[2025.04.21-09.24.50:912][494]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Complete Dialogue has empty Data Table!
+[2025.04.21-09.24.56:978][211]LogMounteaDialogueSystem: Error: [GetDialogueRow] Node Complete Dialogue has empty Data Table!
+[2025.04.21-09.24.56:978][211]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Complete Dialogue has empty Data Table!
+[2025.04.21-09.24.56:979][211]LogMounteaDialogueSystem: Error: [GetDialogueRow] Node Complete Dialogue has empty Data Table!
+[2025.04.21-09.24.56:979][211]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Complete Dialogue has empty Data Table!
+[2025.04.21-09.24.58:256][358]LogDataTable: Warning: UDataTable::FindRow : '' requested invalid row 'None' from DataTable '/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests.DT_MainQuests'.
+[2025.04.21-09.24.58:257][358]LogMounteaDialogueSystem: Warning: [GetDialogueRow] Node Complete Dialogue has no Row Data by ID: None!
+[2025.04.21-09.24.58:257][358]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Complete Dialogue has no Row Data by ID: None!
+[2025.04.21-09.24.58:258][358]LogDataTable: Warning: UDataTable::FindRow : '' requested invalid row 'None' from DataTable '/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests.DT_MainQuests'.
+[2025.04.21-09.24.58:258][358]LogMounteaDialogueSystem: Warning: [GetDialogueRow] Node Complete Dialogue has no Row Data by ID: None!
+[2025.04.21-09.24.58:258][358]LogBlueprintUserMessages: [InitMap] [GetDialogueRow] Node Complete Dialogue has no Row Data by ID: None!
+[2025.04.21-09.25.17:151][563]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-09.25.17:176][563]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01] ([1] browsable assets)...
+[2025.04.21-09.25.17:176][563]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01]
+[2025.04.21-09.25.17:177][563]LogSavePackage: Moving output files for package: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01
+[2025.04.21-09.25.17:177][563]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/D_MQD-01933B075F4C39D4BC4AD099BEF89D8F4D.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01.uasset'
+[2025.04.21-09.25.17:184][563]LogFileHelpers: InternalPromptForCheckoutAndSave took 33.034 ms (total: 6.37 sec)
+[2025.04.21-09.25.17:216][563]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-09.25.17:216][563]LogContentValidation: Enabled validators:
+[2025.04.21-09.25.17:216][563]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-09.25.17:216][563]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-09.25.17:216][563]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-09.25.17:216][563]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-09.25.17:216][563]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-09.25.17:216][563]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-09.25.17:217][563]AssetCheck: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01 Validating asset
+[2025.04.21-09.25.19:625][841]LogSlate: Window 'Mountea Dialogue System - Graph Validation' being destroyed
+[2025.04.21-09.25.21:260][ 36]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-09.25.21:291][ 36]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01] ([1] browsable assets)...
+[2025.04.21-09.25.21:291][ 36]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01]
+[2025.04.21-09.25.21:293][ 36]LogSavePackage: Moving output files for package: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01
+[2025.04.21-09.25.21:293][ 36]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/D_MQD-012B6F59314A19D3B22551B58271264801.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01.uasset'
+[2025.04.21-09.25.21:301][ 36]LogFileHelpers: InternalPromptForCheckoutAndSave took 41.269 ms (total: 6.41 sec)
+[2025.04.21-09.25.21:332][ 36]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-09.25.21:332][ 36]LogContentValidation: Enabled validators:
+[2025.04.21-09.25.21:332][ 36]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-09.25.21:332][ 36]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-09.25.21:332][ 36]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-09.25.21:332][ 36]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-09.25.21:332][ 36]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-09.25.21:332][ 36]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-09.25.21:332][ 36]AssetCheck: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01 Validating asset
+[2025.04.21-09.25.26:807][689]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-09.25.26:831][689]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01] ([1] browsable assets)...
+[2025.04.21-09.25.26:831][689]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01]
+[2025.04.21-09.25.26:833][689]LogSavePackage: Moving output files for package: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01
+[2025.04.21-09.25.26:833][689]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/D_MQD-0155B08EC043F038660A15ADB3BBF6FA2C.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01.uasset'
+[2025.04.21-09.25.26:840][689]LogFileHelpers: InternalPromptForCheckoutAndSave took 32.809 ms (total: 6.45 sec)
+[2025.04.21-09.25.26:866][689]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-09.25.26:866][689]LogContentValidation: Enabled validators:
+[2025.04.21-09.25.26:866][689]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-09.25.26:866][689]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-09.25.26:866][689]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-09.25.26:866][689]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-09.25.26:866][689]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-09.25.26:866][689]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-09.25.26:867][689]AssetCheck: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/D_MQD-01 Validating asset
+[2025.04.21-09.25.32:238][297]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_58
+[2025.04.21-09.25.32:797][331]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_59
+[2025.04.21-09.25.39:611][ 48]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.21-09.25.39:617][ 48]LogContentBundle: [InitMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.21-09.25.39:617][ 48]LogWorldPartition: Display: GenerateStreaming for 'InitMap' started...
+[2025.04.21-09.25.39:619][ 48]LogWorldPartition: Display: GenerateStreaming for 'InitMap' took 1.420 ms (total: 23.241 ms)
+[2025.04.21-09.25.40:092][ 48]LogSlate: External Image Picker: DecompressImage failed
+[2025.04.21-09.25.40:633][ 48]LogSlate: External Image Picker: DecompressImage failed
+[2025.04.21-09.25.40:725][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.21-09.25.40:769][ 48]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_InitMap
+[2025.04.21-09.25.40:772][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002759s)
+[2025.04.21-09.25.40:772][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/InitMap.InitMap to /Game/Maps/UEDPIE_0_InitMap.InitMap (0.002807s)
+[2025.04.21-09.25.40:787][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.04.21-09.25.40:790][ 48]LogChaosDD: Creating Chaos Debug Draw Scene for world InitMap
+[2025.04.21-09.25.40:791][ 48]LogWorldPartition: ULevel::OnLevelLoaded(InitMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.21-09.25.40:792][ 48]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.21-09.25.40:792][ 48]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_InitMap.InitMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.21-09.25.40:792][ 48]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.21-09.25.40:792][ 48]LogWorldPartition: Display: WorldPartition initialize took 742 us (total: 37.788 ms)
+[2025.04.21-09.25.40:792][ 48]LogPlayLevel: PIE: World Init took: (0.002644s)
+[2025.04.21-09.25.40:793][ 48]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2025.04.21-09.25.40:793][ 48]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.21-09.25.40:793][ 48]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.21-09.25.40:793][ 48]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.21-09.25.40:793][ 48]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.21-09.25.40:793][ 48]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.21-09.25.40:793][ 48]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.21-09.25.40:793][ 48]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.21-09.25.40:793][ 48]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.21-09.25.40:793][ 48]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.21-09.25.40:793][ 48]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.21-09.25.40:793][ 48]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.21-09.25.40:796][ 48]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.21-09.25.40:817][ 48]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Focusrite USB Audio)
+[2025.04.21-09.25.40:817][ 48]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.21-09.25.40:817][ 48]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.21-09.25.40:817][ 48]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.21-09.25.40:818][ 48]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2025.04.21-09.25.40:818][ 48]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=25
+[2025.04.21-09.25.40:820][ 48]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2025.04.21-09.25.40:820][ 48]LogInit: FAudioDevice initialized with ID 25.
+[2025.04.21-09.25.40:820][ 48]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2025.04.21-09.25.40:820][ 48]LogAudio: Display: Audio Device (ID: 25) registered with world 'InitMap'.
+[2025.04.21-09.25.40:820][ 48]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2025.04.21-09.25.40:826][ 48]LogLoad: Game class is 'BP_MainGameMode_C'
+[2025.04.21-09.25.40:830][ 48]LogWorld: Bringing World /Game/Maps/UEDPIE_0_InitMap.InitMap up for play (max tick rate 0) at 2025.04.21-10.25.40
+[2025.04.21-09.25.40:830][ 48]LogWorld: Bringing up level for play took: 0.003582
+[2025.04.21-09.25.40:833][ 48]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2025.04.21-09.25.40:842][ 48]LogStreaming: Display: FlushAsyncLoading(644): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.21-09.25.40:843][ 48]PIE: Server logged in
+[2025.04.21-09.25.40:844][ 48]PIE: Play in editor total start time 1.226 seconds.
+[2025.04.21-09.25.45:756][500]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockAlways
+[2025.04.21-09.25.45:756][500]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2025.04.21-09.25.45:756][500]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.04.21-09.25.58:971][ 15]LogSlate: External Image Picker: DecompressImage failed
+[2025.04.21-09.25.59:507][ 15]LogSlate: External Image Picker: DecompressImage failed
+[2025.04.21-09.25.59:595][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.21-09.25.59:595][ 15]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_InitMap
+[2025.04.21-09.25.59:595][ 15]LogWorld: UWorld::CleanupWorld for InitMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.21-09.25.59:596][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.21-09.25.59:596][ 15]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_InitMap.InitMap
+[2025.04.21-09.25.59:607][ 15]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.21-09.25.59:611][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.21-09.25.59:625][ 15]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.21-09.25.59:625][ 15]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2025.04.21-09.25.59:625][ 15]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2025.04.21-09.25.59:627][ 15]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2025.04.21-09.25.59:631][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.21-09.25.59:633][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.04.21-09.25.59:991][ 16]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2025.04.21-09.26.02:241][255]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.04.21-09.26.02:245][255]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-09.26.02:279][255]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/InitMap/4/4B/C15TRBC38IDFEWZ5UY0D0E
+[2025.04.21-09.26.02:279][255]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/C15TRBC38IDFEWZ5UY0D0EE4F8351346A9086CA8AB84B1BE2AABBC.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/__ExternalActors__/Maps/InitMap/4/4B/C15TRBC38IDFEWZ5UY0D0E.uasset'
+[2025.04.21-09.26.02:290][255]LogFileHelpers: InternalPromptForCheckoutAndSave took 46.211 ms (total: 6.49 sec)
+[2025.04.21-09.26.02:329][255]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-09.26.02:329][255]LogContentValidation: Enabled validators:
+[2025.04.21-09.26.02:329][255]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-09.26.02:329][255]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-09.26.02:329][255]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-09.26.02:329][255]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-09.26.02:329][255]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-09.26.02:329][255]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-09.26.02:329][255]AssetCheck: /Game/Maps/InitMap Validating asset
+[2025.04.21-09.28.33:809][741]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 50663.214844
+[2025.04.21-09.28.34:810][744]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-09.28.34:810][744]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 50663.882812, Update Interval: 321.434967
+[2025.04.21-09.33.17:514][318]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.04.21-09.33.17:537][318]LogContentBrowser: Creating deferred item: NewFolder
+[2025.04.21-09.33.17:547][319]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.04.21-09.33.20:286][628]LogContentBrowser: Attempting asset rename: NewFolder -> Voices
+[2025.04.21-09.33.20:286][628]LogContentBrowser: End creating deferred item NewFolder
+[2025.04.21-09.33.37:257][ 77]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.04.21-09.33.37:265][ 77]LogContentBrowser: Creating deferred item: NewFolder
+[2025.04.21-09.33.37:285][ 79]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.04.21-09.33.38:639][234]LogContentBrowser: Attempting asset rename: NewFolder -> Mairead O’Donovan
+[2025.04.21-09.33.38:640][234]LogContentBrowser: End creating deferred item NewFolder
+[2025.04.21-09.33.55:373][501]LogStreaming: Display: FlushAsyncLoading(646): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.21-09.33.55:399][501]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:\Users\sinan\Downloads\V01.mp3)
+[2025.04.21-09.33.55:409][501]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_-1_END wave V01...
+[2025.04.21-09.33.55:424][501]LogAudioDerivedData: Display: V01 compressed to 15.53% (from 515KB to 80KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2025.04.21-09.33.55:424][501]LogAudio: Display: Chunk stats for (SoundWave /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/Voices/Mairead O’Donovan/V01.V01: Duration=0.00 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=81947 bytes, ChunkN=0)
+[2025.04.21-09.33.55:426][501]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_-1_END wave V01...
+[2025.04.21-09.33.55:437][502]LogAudioDerivedData: Display: V01 compressed to 15.53% (from 515KB to 80KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2025.04.21-09.33.55:438][502]LogAudio: Display: Chunk stats for (SoundWave /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/Voices/Mairead O’Donovan/V01.V01: Duration=0.00 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=81947 bytes, ChunkN=0)
+[2025.04.21-09.33.58:672][547]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:\Users\sinan\Downloads\V02.mp3)
+[2025.04.21-09.34.02:725][547]LogSlate: Window 'Message' being destroyed
+[2025.04.21-09.34.02:733][547]Message dialog closed, result: No, title: Message, text: Use the selected Sound Wave 'V01' in the Content Browser as a template for sound(s) being imported?
+[2025.04.21-09.34.02:735][547]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_-1_END wave V02...
+[2025.04.21-09.34.02:746][547]LogAudioDerivedData: Display: V02 compressed to 14.35% (from 495KB to 71KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2025.04.21-09.34.02:746][547]LogAudio: Display: Chunk stats for (SoundWave /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/Voices/Mairead O’Donovan/V02.V02: Duration=0.00 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=72719 bytes, ChunkN=0)
+[2025.04.21-09.34.02:747][547]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_-1_END wave V02...
+[2025.04.21-09.34.02:758][547]LogAudioDerivedData: Display: V02 compressed to 14.35% (from 495KB to 71KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2025.04.21-09.34.02:758][548]LogAudio: Display: Chunk stats for (SoundWave /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/Voices/Mairead O’Donovan/V02.V02: Duration=0.00 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=72719 bytes, ChunkN=0)
+[2025.04.21-09.34.06:695][960]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.04.21-09.34.07:815][960]LogSlate: Window 'Delete Assets' being destroyed
+[2025.04.21-09.34.07:843][960]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.04.21-09.34.07:859][960]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.04.21-09.34.07:874][960]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.04.21-09.34.15:668][ 52]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:\Users\sinan\Downloads\V02.mp3)
+[2025.04.21-09.34.15:673][ 52]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_-1_END wave V02...
+[2025.04.21-09.34.15:685][ 52]LogAudioDerivedData: Display: V02 compressed to 14.35% (from 495KB to 71KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2025.04.21-09.34.15:685][ 52]LogAudio: Display: Chunk stats for (SoundWave /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/Voices/Mairead O’Donovan/V02.V02: Duration=0.00 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=72719 bytes, ChunkN=0)
+[2025.04.21-09.34.15:686][ 52]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_-1_END wave V02...
+[2025.04.21-09.34.15:686][ 52]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:\Users\sinan\Downloads\V01.mp3)
+[2025.04.21-09.34.15:692][ 52]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_-1_END wave V01...
+[2025.04.21-09.34.15:698][ 52]LogAudioDerivedData: Display: V02 compressed to 14.35% (from 495KB to 71KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2025.04.21-09.34.15:699][ 52]LogAudio: Display: Chunk stats for (SoundWave /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/Voices/Mairead O’Donovan/V02.V02: Duration=0.00 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=72719 bytes, ChunkN=0)
+[2025.04.21-09.34.15:705][ 52]LogAudioDerivedData: Display: V01 compressed to 15.53% (from 515KB to 80KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2025.04.21-09.34.15:705][ 52]LogAudio: Display: Chunk stats for (SoundWave /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/Voices/Mairead O’Donovan/V01.V01: Duration=0.00 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=81947 bytes, ChunkN=0)
+[2025.04.21-09.34.15:706][ 52]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_-1_END wave V01...
+[2025.04.21-09.34.15:720][ 52]LogAudioDerivedData: Display: V01 compressed to 15.53% (from 515KB to 80KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2025.04.21-09.34.15:720][ 52]LogAudio: Display: Chunk stats for (SoundWave /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/Voices/Mairead O’Donovan/V01.V01: Duration=0.00 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=81947 bytes, ChunkN=0)
+[2025.04.21-09.34.18:379][167]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.04.21-09.34.18:384][167]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-09.34.18:416][167]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/Voices/Mairead O’Donovan/V02] ([1] browsable assets)...
+[2025.04.21-09.34.18:418][167]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/Voices/Mairead O’Donovan/V02.V02]
+[2025.04.21-09.34.18:418][167]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/Voices/Mairead O’Donovan/V02]
+[2025.04.21-09.34.18:422][167]LogSavePackage: Moving output files for package: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/Voices/Mairead O’Donovan/V02
+[2025.04.21-09.34.18:422][167]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/V020F827B314BEF1855B1363D9CD86F196D.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/Mountea_Dialogue/QuestsDialogue/Voices/Mairead O’Donovan/V02.uasset'
+[2025.04.21-09.34.18:423][167]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/Voices/Mairead O’Donovan/V01] ([1] browsable assets)...
+[2025.04.21-09.34.18:425][167]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/Voices/Mairead O’Donovan/V01.V01]
+[2025.04.21-09.34.18:425][167]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/Voices/Mairead O’Donovan/V01]
+[2025.04.21-09.34.18:428][167]LogSavePackage: Moving output files for package: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/Voices/Mairead O’Donovan/V01
+[2025.04.21-09.34.18:428][167]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/V01CE83865341282D7AF98A53B81580BA87.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/Mountea_Dialogue/QuestsDialogue/Voices/Mairead O’Donovan/V01.uasset'
+[2025.04.21-09.34.18:438][167]LogFileHelpers: InternalPromptForCheckoutAndSave took 53.407 ms (total: 6.55 sec)
+[2025.04.21-09.34.18:473][167]LogContentValidation: Display: Starting to validate 2 assets
+[2025.04.21-09.34.18:473][167]LogContentValidation: Enabled validators:
+[2025.04.21-09.34.18:473][167]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-09.34.18:473][167]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-09.34.18:473][167]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-09.34.18:473][167]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-09.34.18:473][167]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-09.34.18:473][167]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-09.34.18:473][167]AssetCheck: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/Voices/Mairead O’Donovan/V02 Validating asset
+[2025.04.21-09.34.18:473][167]AssetCheck: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/Voices/Mairead O’Donovan/V01 Validating asset
+[2025.04.21-09.34.40:629][357]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 51027.929688
+[2025.04.21-09.34.40:778][374]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-09.34.40:778][374]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 51028.066406, Update Interval: 326.428406
+[2025.04.21-09.36.27:029][584]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-09.36.27:060][584]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests] ([1] browsable assets)...
+[2025.04.21-09.36.27:060][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests]
+[2025.04.21-09.36.27:062][584]LogSavePackage: Moving output files for package: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests
+[2025.04.21-09.36.27:062][584]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/DT_MainQuestsA052B8974AF9AD9729AC5BA376B116DD.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests.uasset'
+[2025.04.21-09.36.27:069][584]LogFileHelpers: InternalPromptForCheckoutAndSave took 39.443 ms (total: 6.59 sec)
+[2025.04.21-09.36.27:100][584]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-09.36.27:100][584]LogContentValidation: Enabled validators:
+[2025.04.21-09.36.27:100][584]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-09.36.27:100][584]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-09.36.27:100][584]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-09.36.27:100][584]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-09.36.27:100][584]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-09.36.27:100][584]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-09.36.27:100][584]AssetCheck: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests Validating asset
+[2025.04.21-09.36.36:953][719]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-09.36.36:987][719]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests] ([1] browsable assets)...
+[2025.04.21-09.36.36:987][719]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests]
+[2025.04.21-09.36.36:989][719]LogSavePackage: Moving output files for package: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests
+[2025.04.21-09.36.36:989][719]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/DT_MainQuestsCDF2E1E8493CE1738F46BF9323184859.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests.uasset'
+[2025.04.21-09.36.36:996][719]LogFileHelpers: InternalPromptForCheckoutAndSave took 42.167 ms (total: 6.63 sec)
+[2025.04.21-09.36.37:037][719]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-09.36.37:037][719]LogContentValidation: Enabled validators:
+[2025.04.21-09.36.37:037][719]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-09.36.37:037][719]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-09.36.37:037][719]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-09.36.37:037][719]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-09.36.37:037][719]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-09.36.37:037][719]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-09.36.37:037][719]AssetCheck: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests Validating asset
+[2025.04.21-09.36.38:679][893]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.21-09.36.38:684][893]LogContentBundle: [InitMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.21-09.36.38:684][893]LogWorldPartition: Display: GenerateStreaming for 'InitMap' started...
+[2025.04.21-09.36.38:685][893]LogWorldPartition: Display: GenerateStreaming for 'InitMap' took 963 us (total: 24.204 ms)
+[2025.04.21-09.36.39:046][893]LogSlate: External Image Picker: DecompressImage failed
+[2025.04.21-09.36.39:511][893]LogSlate: External Image Picker: DecompressImage failed
+[2025.04.21-09.36.39:652][893]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.21-09.36.39:689][893]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_InitMap
+[2025.04.21-09.36.39:691][893]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002391s)
+[2025.04.21-09.36.39:691][893]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/InitMap.InitMap to /Game/Maps/UEDPIE_0_InitMap.InitMap (0.002433s)
+[2025.04.21-09.36.39:718][893]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.04.21-09.36.39:720][893]LogChaosDD: Creating Chaos Debug Draw Scene for world InitMap
+[2025.04.21-09.36.39:721][893]LogWorldPartition: ULevel::OnLevelLoaded(InitMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.21-09.36.39:721][893]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.21-09.36.39:721][893]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_InitMap.InitMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.21-09.36.39:722][893]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.21-09.36.39:722][893]LogWorldPartition: Display: WorldPartition initialize took 921 us (total: 38.709 ms)
+[2025.04.21-09.36.39:722][893]LogPlayLevel: PIE: World Init took: (0.002750s)
+[2025.04.21-09.36.39:723][893]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2025.04.21-09.36.39:723][893]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.21-09.36.39:723][893]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.21-09.36.39:723][893]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.21-09.36.39:723][893]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.21-09.36.39:723][893]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.21-09.36.39:723][893]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.21-09.36.39:723][893]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.21-09.36.39:723][893]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.21-09.36.39:723][893]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.21-09.36.39:723][893]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.21-09.36.39:723][893]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.21-09.36.39:726][893]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.21-09.36.39:748][893]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Focusrite USB Audio)
+[2025.04.21-09.36.39:749][893]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.21-09.36.39:749][893]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.21-09.36.39:749][893]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.21-09.36.39:750][893]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2025.04.21-09.36.39:750][893]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=26
+[2025.04.21-09.36.39:753][893]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2025.04.21-09.36.39:753][893]LogInit: FAudioDevice initialized with ID 26.
+[2025.04.21-09.36.39:753][893]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2025.04.21-09.36.39:753][893]LogAudio: Display: Audio Device (ID: 26) registered with world 'InitMap'.
+[2025.04.21-09.36.39:753][893]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2025.04.21-09.36.39:756][893]LogLoad: Game class is 'BP_MainGameMode_C'
+[2025.04.21-09.36.39:758][893]LogWorld: Bringing World /Game/Maps/UEDPIE_0_InitMap.InitMap up for play (max tick rate 0) at 2025.04.21-10.36.39
+[2025.04.21-09.36.39:759][893]LogWorld: Bringing up level for play took: 0.002918
+[2025.04.21-09.36.39:761][893]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2025.04.21-09.36.39:766][893]LogStreaming: Display: FlushAsyncLoading(651): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.21-09.36.39:767][893]PIE: Server logged in
+[2025.04.21-09.36.39:768][893]PIE: Play in editor total start time 1.084 seconds.
+[2025.04.21-09.36.44:683][272]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockAlways
+[2025.04.21-09.36.44:683][272]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2025.04.21-09.36.44:683][272]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.04.21-09.37.02:544][412]LogViewport: Display: Viewport MouseLockMode Changed, LockAlways -> LockOnCapture
+[2025.04.21-09.37.02:544][412]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2025.04.21-09.37.03:938][535]LogSlate: External Image Picker: DecompressImage failed
+[2025.04.21-09.37.04:345][535]LogSlate: External Image Picker: DecompressImage failed
+[2025.04.21-09.37.04:434][535]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.21-09.37.04:434][535]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_InitMap
+[2025.04.21-09.37.04:435][535]LogWorld: UWorld::CleanupWorld for InitMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.21-09.37.04:435][535]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.21-09.37.04:435][535]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_InitMap.InitMap
+[2025.04.21-09.37.04:441][535]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.21-09.37.04:447][535]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.21-09.37.04:462][535]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.21-09.37.04:462][535]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2025.04.21-09.37.04:462][535]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2025.04.21-09.37.04:464][535]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2025.04.21-09.37.04:470][535]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.04.21-09.37.04:834][536]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2025.04.21-09.37.21:155][459]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-09.37.21:184][459]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests] ([1] browsable assets)...
+[2025.04.21-09.37.21:184][459]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests]
+[2025.04.21-09.37.21:185][459]LogSavePackage: Moving output files for package: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests
+[2025.04.21-09.37.21:185][459]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/DT_MainQuests6BA5795E493166281ADA748FC00596B2.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests.uasset'
+[2025.04.21-09.37.21:193][459]LogFileHelpers: InternalPromptForCheckoutAndSave took 38.269 ms (total: 6.67 sec)
+[2025.04.21-09.37.21:224][459]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-09.37.21:224][459]LogContentValidation: Enabled validators:
+[2025.04.21-09.37.21:224][459]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-09.37.21:224][459]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-09.37.21:224][459]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-09.37.21:224][459]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-09.37.21:224][459]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-09.37.21:225][459]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-09.37.21:225][459]AssetCheck: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests Validating asset
+[2025.04.21-09.37.22:334][578]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.21-09.37.22:338][578]LogContentBundle: [InitMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.21-09.37.22:338][578]LogWorldPartition: Display: GenerateStreaming for 'InitMap' started...
+[2025.04.21-09.37.22:340][578]LogWorldPartition: Display: GenerateStreaming for 'InitMap' took 900 us (total: 25.105 ms)
+[2025.04.21-09.37.22:661][578]LogSlate: External Image Picker: DecompressImage failed
+[2025.04.21-09.37.23:093][578]LogSlate: External Image Picker: DecompressImage failed
+[2025.04.21-09.37.23:217][578]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.21-09.37.23:249][578]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_InitMap
+[2025.04.21-09.37.23:251][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001975s)
+[2025.04.21-09.37.23:251][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/InitMap.InitMap to /Game/Maps/UEDPIE_0_InitMap.InitMap (0.002012s)
+[2025.04.21-09.37.23:263][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.04.21-09.37.23:265][578]LogChaosDD: Creating Chaos Debug Draw Scene for world InitMap
+[2025.04.21-09.37.23:266][578]LogWorldPartition: ULevel::OnLevelLoaded(InitMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.21-09.37.23:266][578]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.21-09.37.23:266][578]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_InitMap.InitMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.21-09.37.23:266][578]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.21-09.37.23:266][578]LogWorldPartition: Display: WorldPartition initialize took 636 us (total: 39.346 ms)
+[2025.04.21-09.37.23:267][578]LogPlayLevel: PIE: World Init took: (0.001808s)
+[2025.04.21-09.37.23:268][578]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2025.04.21-09.37.23:268][578]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.21-09.37.23:268][578]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.21-09.37.23:268][578]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.21-09.37.23:268][578]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.21-09.37.23:268][578]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.21-09.37.23:268][578]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.21-09.37.23:268][578]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.21-09.37.23:268][578]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.21-09.37.23:268][578]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.21-09.37.23:268][578]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.21-09.37.23:268][578]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.21-09.37.23:269][578]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.21-09.37.23:289][578]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Focusrite USB Audio)
+[2025.04.21-09.37.23:289][578]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.21-09.37.23:289][578]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.21-09.37.23:289][578]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.21-09.37.23:290][578]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2025.04.21-09.37.23:290][578]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=27
+[2025.04.21-09.37.23:292][578]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2025.04.21-09.37.23:292][578]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2025.04.21-09.37.23:292][578]LogInit: FAudioDevice initialized with ID 27.
+[2025.04.21-09.37.23:292][578]LogAudio: Display: Audio Device (ID: 27) registered with world 'InitMap'.
+[2025.04.21-09.37.23:292][578]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 27
+[2025.04.21-09.37.23:294][578]LogLoad: Game class is 'BP_MainGameMode_C'
+[2025.04.21-09.37.23:297][578]LogWorld: Bringing World /Game/Maps/UEDPIE_0_InitMap.InitMap up for play (max tick rate 0) at 2025.04.21-10.37.23
+[2025.04.21-09.37.23:297][578]LogWorld: Bringing up level for play took: 0.002358
+[2025.04.21-09.37.23:298][578]LogOnline: OSS: Created online subsystem instance for: :Context_58
+[2025.04.21-09.37.23:303][578]LogStreaming: Display: FlushAsyncLoading(653): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.21-09.37.23:304][578]PIE: Server logged in
+[2025.04.21-09.37.23:304][578]PIE: Play in editor total start time 0.967 seconds.
+[2025.04.21-09.37.28:257][123]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockAlways
+[2025.04.21-09.37.28:257][123]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2025.04.21-09.37.28:257][123]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.04.21-09.37.48:125][505]LogViewport: Display: Viewport MouseLockMode Changed, LockAlways -> LockOnCapture
+[2025.04.21-09.37.48:125][505]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2025.04.21-09.37.49:971][682]LogSlate: External Image Picker: DecompressImage failed
+[2025.04.21-09.37.50:373][682]LogSlate: External Image Picker: DecompressImage failed
+[2025.04.21-09.37.50:464][682]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.21-09.37.50:464][682]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_InitMap
+[2025.04.21-09.37.50:464][682]LogWorld: UWorld::CleanupWorld for InitMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.21-09.37.50:464][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.21-09.37.50:464][682]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_InitMap.InitMap
+[2025.04.21-09.37.50:472][682]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.21-09.37.50:474][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.21-09.37.50:486][682]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.21-09.37.50:487][682]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 27
+[2025.04.21-09.37.50:487][682]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2025.04.21-09.37.50:490][682]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2025.04.21-09.37.50:496][682]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.04.21-09.37.50:854][683]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2025.04.21-09.38.07:069][588]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.21-09.38.07:100][588]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests] ([1] browsable assets)...
+[2025.04.21-09.38.07:100][588]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests]
+[2025.04.21-09.38.07:101][588]LogSavePackage: Moving output files for package: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests
+[2025.04.21-09.38.07:102][588]LogSavePackage: Moving '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Saved/DT_MainQuestsB3D42DEF425DF680FF8720B1678D2090.tmp' to '../../../../../Projects/Daingean Games/Galley Head/v2/GalledyHead_v2/GalleyHead_v2/Content/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests.uasset'
+[2025.04.21-09.38.07:108][588]LogFileHelpers: InternalPromptForCheckoutAndSave took 39.455 ms (total: 6.71 sec)
+[2025.04.21-09.38.07:140][588]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.21-09.38.07:140][588]LogContentValidation: Enabled validators:
+[2025.04.21-09.38.07:140][588]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.21-09.38.07:140][588]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.21-09.38.07:140][588]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.21-09.38.07:140][588]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.21-09.38.07:140][588]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.21-09.38.07:140][588]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.21-09.38.07:140][588]AssetCheck: /Game/Blueprints/Mountea_Dialogue/QuestsDialogue/DT_MainQuests Validating asset
+[2025.04.21-09.38.08:295][710]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.21-09.38.08:299][710]LogContentBundle: [InitMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.21-09.38.08:299][710]LogWorldPartition: Display: GenerateStreaming for 'InitMap' started...
+[2025.04.21-09.38.08:300][710]LogWorldPartition: Display: GenerateStreaming for 'InitMap' took 907 us (total: 26.012 ms)
+[2025.04.21-09.38.08:625][710]LogSlate: External Image Picker: DecompressImage failed
+[2025.04.21-09.38.09:058][710]LogSlate: External Image Picker: DecompressImage failed
+[2025.04.21-09.38.09:181][710]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.21-09.38.09:219][710]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_InitMap
+[2025.04.21-09.38.09:221][710]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002014s)
+[2025.04.21-09.38.09:221][710]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/InitMap.InitMap to /Game/Maps/UEDPIE_0_InitMap.InitMap (0.002050s)
+[2025.04.21-09.38.09:239][710]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.04.21-09.38.09:241][710]LogChaosDD: Creating Chaos Debug Draw Scene for world InitMap
+[2025.04.21-09.38.09:243][710]LogWorldPartition: ULevel::OnLevelLoaded(InitMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.21-09.38.09:243][710]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.21-09.38.09:243][710]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_InitMap.InitMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.21-09.38.09:243][710]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.21-09.38.09:243][710]LogWorldPartition: Display: WorldPartition initialize took 684 us (total: 40.030 ms)
+[2025.04.21-09.38.09:243][710]LogPlayLevel: PIE: World Init took: (0.001976s)
+[2025.04.21-09.38.09:244][710]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2025.04.21-09.38.09:244][710]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.21-09.38.09:244][710]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.21-09.38.09:244][710]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.21-09.38.09:244][710]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.21-09.38.09:244][710]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.21-09.38.09:244][710]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.21-09.38.09:244][710]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.21-09.38.09:244][710]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.21-09.38.09:244][710]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.21-09.38.09:244][710]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.21-09.38.09:244][710]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.21-09.38.09:246][710]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.21-09.38.09:265][710]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Focusrite USB Audio)
+[2025.04.21-09.38.09:266][710]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.21-09.38.09:266][710]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.21-09.38.09:266][710]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.21-09.38.09:267][710]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2025.04.21-09.38.09:267][710]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=28
+[2025.04.21-09.38.09:269][710]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2025.04.21-09.38.09:269][710]LogInit: FAudioDevice initialized with ID 28.
+[2025.04.21-09.38.09:269][710]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2025.04.21-09.38.09:269][710]LogAudio: Display: Audio Device (ID: 28) registered with world 'InitMap'.
+[2025.04.21-09.38.09:269][710]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2025.04.21-09.38.09:271][710]LogLoad: Game class is 'BP_MainGameMode_C'
+[2025.04.21-09.38.09:274][710]LogWorld: Bringing World /Game/Maps/UEDPIE_0_InitMap.InitMap up for play (max tick rate 0) at 2025.04.21-10.38.09
+[2025.04.21-09.38.09:274][710]LogWorld: Bringing up level for play took: 0.002503
+[2025.04.21-09.38.09:276][710]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2025.04.21-09.38.09:280][710]LogStreaming: Display: FlushAsyncLoading(655): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.21-09.38.09:281][710]PIE: Server logged in
+[2025.04.21-09.38.09:282][710]PIE: Play in editor total start time 0.982 seconds.
+[2025.04.21-09.38.12:129][  1]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockAlways
+[2025.04.21-09.38.12:129][  1]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2025.04.21-09.38.12:129][  1]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.04.21-09.38.35:562][812]LogViewport: Display: Viewport MouseLockMode Changed, LockAlways -> LockOnCapture
+[2025.04.21-09.38.35:562][812]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2025.04.21-09.38.37:886][ 49]LogSlate: External Image Picker: DecompressImage failed
+[2025.04.21-09.38.38:295][ 49]LogSlate: External Image Picker: DecompressImage failed
+[2025.04.21-09.38.38:387][ 49]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.21-09.38.38:387][ 49]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_InitMap
+[2025.04.21-09.38.38:388][ 49]LogWorld: UWorld::CleanupWorld for InitMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.21-09.38.38:388][ 49]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.21-09.38.38:388][ 49]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_InitMap.InitMap
+[2025.04.21-09.38.38:393][ 49]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.21-09.38.38:395][ 49]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.21-09.38.38:413][ 49]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.21-09.38.38:413][ 49]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2025.04.21-09.38.38:413][ 49]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2025.04.21-09.38.38:415][ 49]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2025.04.21-09.38.38:420][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.04.21-09.38.38:787][ 50]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2025.04.21-09.40.37:766][987]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 51378.664062
+[2025.04.21-09.40.38:766][990]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-09.40.38:766][990]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 51379.328125, Update Interval: 321.447784
+[2025.04.21-09.46.51:820][109]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 51752.058594
+[2025.04.21-09.46.52:821][112]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-09.46.52:821][112]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 51752.722656, Update Interval: 339.733276
+[2025.04.21-09.53.09:543][242]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 52129.019531
+[2025.04.21-09.53.10:543][245]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-09.53.10:543][245]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 52129.683594, Update Interval: 319.411591
+[2025.04.21-09.59.18:600][349]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 52496.976562
+[2025.04.21-09.59.19:599][352]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-09.59.19:599][352]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 52497.640625, Update Interval: 301.019928
+[2025.04.21-10.05.18:653][429]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 52855.933594
+[2025.04.21-10.05.19:653][432]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-10.05.19:653][432]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 52856.597656, Update Interval: 311.125824
+[2025.04.21-10.11.30:042][543]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 53226.109375
+[2025.04.21-10.11.31:042][546]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-10.11.31:042][546]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 53226.773438, Update Interval: 319.808960
+[2025.04.21-10.16.13:589][394]LogDerivedDataCache: C:/Users/sinan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.04.21-10.17.22:103][599]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 53577.429688
+[2025.04.21-10.17.23:103][602]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-10.17.23:103][602]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 53578.093750, Update Interval: 351.578735
+[2025.04.21-10.19.07:830][915]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2025.04.21-10.19.12:830][915]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2025.04.21-10.19.17:831][915]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2025.04.21-10.20.05:434][916]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.04.21-10.20.05:434][916]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=37716
+[2025.04.21-10.20.05:468][917]LogEOSSDK: Warning: LogHttp: 00000B330DB5D200: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/tokenInfo, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.04.21-10.20.05:468][917]LogEOSSDK: Warning: LogHttp: 00000B330DB5D200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.04.21-10.20.05:468][918]LogEOSSDK: Warning: LogHttp: 00000B330DB5D200: libcurl info message cache 0 (Found bundle for host: 0xb3240880d80 [serially])
+[2025.04.21-10.20.05:468][918]LogEOSSDK: Warning: LogHttp: 00000B330DB5D200: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.04.21-10.20.05:468][918]LogEOSSDK: Warning: LogHttp: 00000B330DB5D200: libcurl info message cache 2 (Closing connection)
+[2025.04.21-10.20.05:468][918]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.04.21-10.20.06:029][918]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.04.21-10.20.06:031][918]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=8, SampleRate=48000, DeviceID={0.0.0.00000000}.{572174fe-d6ac-43c1-9e97-6c51e98a3e24}, Name=Speakers (Focusrite USB Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=316.86
+[2025.04.21-10.20.06:032][918]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=1
+[2025.04.21-10.20.06:034][918]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.04.21-10.20.06:075][918]LogEOSSDK: Error: LogEOSAuth: Ignoring failed attempt to verify active authentication session due to an unexpected error. Error: EOS_OperationWillRetry UserId: 0a4...13c
+[2025.04.21-10.20.06:698][920]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.04.21-10.20.07:044][921]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.04.21-10.20.07:044][921]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=37716
+[2025.04.21-10.20.07:060][921]LogHttp: Warning: 00000B32BA06A100: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2025.04.21-10.20.07:060][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 0 (Found bundle for host: 0xb31b4050360 [serially])
+[2025.04.21-10.20.07:060][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.04.21-10.20.07:060][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.04.21-10.20.07:060][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2025.04.21-10.20.07:060][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 4 (OpenSSL SSL_read: Connection was reset, errno 10054)
+[2025.04.21-10.20.07:060][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.04.21-10.20.07:060][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 6 (state.rewindbeforesend = TRUE)
+[2025.04.21-10.20.07:060][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 7 (Closing connection)
+[2025.04.21-10.20.07:060][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2025.04.21-10.20.07:060][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 9 (Send failure: Connection was reset)
+[2025.04.21-10.20.07:060][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 10 (Recv failure: Connection was reset)
+[2025.04.21-10.20.07:060][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 11 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1F01F32F-4FE4-65FA-A34A-A5BFAA52B577%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=fbfd5b8547ec75835cc8a8b913acbf0b%7C0a4b0d17d36e44e6901bf595b345613c%7C3cf86397-6bab-44e2-9a9d-b3168a21f3e3&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.04.21-10.20.07:060][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 12 (  Trying 23.23.176.176:443...)
+[2025.04.21-10.20.07:060][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 13 (Connected to datarouter.ol.epicgames.com (23.23.176.176) port 443)
+[2025.04.21-10.20.07:060][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 14 (ALPN: curl offers http/1.1)
+[2025.04.21-10.20.07:060][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 15 (SSL reusing session ID)
+[2025.04.21-10.20.07:060][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 16 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.04.21-10.20.07:060][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.04.21-10.20.07:060][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 18 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.04.21-10.20.07:060][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 19 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.04.21-10.20.07:060][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 20 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.04.21-10.20.07:060][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 21 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.04.21-10.20.07:061][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 22 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.04.21-10.20.07:061][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 23 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.04.21-10.20.07:061][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 24 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.04.21-10.20.07:061][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 25 (ALPN: server accepted http/1.1)
+[2025.04.21-10.20.07:061][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 26 (Server certificate:)
+[2025.04.21-10.20.07:061][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 27 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.04.21-10.20.07:061][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 28 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.04.21-10.20.07:061][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 29 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.04.21-10.20.07:061][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 30 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.04.21-10.20.07:061][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 31 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.04.21-10.20.07:061][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 32 ( SSL certificate verify ok.)
+[2025.04.21-10.20.07:061][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 33 (using HTTP/1.1)
+[2025.04.21-10.20.07:061][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 34 (necessary data rewind wasn't possible)
+[2025.04.21-10.20.07:061][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 35 (Closing connection)
+[2025.04.21-10.20.07:061][921]LogHttp: Warning: 00000B32BA06A100: libcurl info message cache 36 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.04.21-10.20.07:061][921]LogEOSSDK: Warning: LogHttp: Success on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.04.21-10.20.07:075][922]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Realtek Digital Output (Realtek USB Audio), InstanceID=1
+[2025.04.21-10.20.07:085][922]LogAudioMixer: Error: XAudio2System->CreateMasteringVoice() -> 0x88890004: AUDCLNT_E_DEVICE_INVALIDATED (line: 337) with Args (NumChannels=8, SampleRate=48000, DeviceID={0.0.0.00000000}.{572174fe-d6ac-43c1-9e97-6c51e98a3e24} Name=Speakers (Focusrite USB Audio))
+[2025.04.21-10.20.07:335][922]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Focusrite USB Audio), InstanceID=1
+[2025.04.21-10.20.09:163][925]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.04.21-10.20.09:166][925]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=8, SampleRate=48000, DeviceID={0.0.0.00000000}.{572174fe-d6ac-43c1-9e97-6c51e98a3e24}, Name=Speakers (Focusrite USB Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=445.25
+[2025.04.21-10.20.09:166][925]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=1
+[2025.04.21-10.20.09:168][925]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.04.21-10.23.54:711][600]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 53969.449219
+[2025.04.21-10.23.55:715][603]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-10.23.55:715][604]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 53970.117188, Update Interval: 345.883972
+[2025.04.21-10.25.57:071][967]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: 0a4...13c
+[2025.04.21-10.25.57:071][967]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 99.9 RefreshExpires: 1.549e+07
+[2025.04.21-10.25.58:073][970]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: 0a4...13c Access[Expires: 2025.04.21-12.26.39 Remaining: 7200.46] Refresh[Expires: 2025-10-17T17:16:29.537Z Remaining: 15490190.54] State: Valid
+[2025.04.21-10.30.27:102][777]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 54361.796875
+[2025.04.21-10.30.28:102][780]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-10.30.28:102][780]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 54362.460938, Update Interval: 311.219208
+[2025.04.21-10.36.10:826][808]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 54705.296875
+[2025.04.21-10.36.11:829][811]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-10.36.11:829][812]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 54705.964844, Update Interval: 301.494171
+[2025.04.21-10.42.06:219][874]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 55060.656250
+[2025.04.21-10.42.07:221][877]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-10.42.07:221][877]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 55061.320312, Update Interval: 327.431854
+[2025.04.21-10.48.29:608][ 24]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 55444.000000
+[2025.04.21-10.48.30:612][ 27]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-10.48.30:612][ 27]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 55444.667969, Update Interval: 311.834473
+[2025.04.21-10.54.30:345][106]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 55804.648438
+[2025.04.21-10.54.31:346][109]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-10.54.31:346][109]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 55805.316406, Update Interval: 359.456177
+[2025.04.21-11.01.20:751][337]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 56215.035156
+[2025.04.21-11.01.21:751][340]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-11.01.21:751][340]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 56215.699219, Update Interval: 343.756226
+[2025.04.21-11.07.55:487][521]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 56609.726562
+[2025.04.21-11.07.56:488][524]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-11.07.56:488][524]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 56610.394531, Update Interval: 316.924957
+[2025.04.21-11.14.05:212][630]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 56979.460938
+[2025.04.21-11.14.06:209][633]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-11.14.06:209][633]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 56980.128906, Update Interval: 323.046356
+[2025.04.21-11.16.55:601][142]LogDerivedDataCache: C:/Users/sinan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.04.21-11.20.24:595][768]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 57358.832031
+[2025.04.21-11.20.25:602][771]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-11.20.25:602][771]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 57359.496094, Update Interval: 303.306976
+[2025.04.21-11.25.59:389][769]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 57693.484375
+[2025.04.21-11.26.00:390][772]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-11.26.00:390][772]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 57694.152344, Update Interval: 323.370453
+[2025.04.21-11.32.06:795][871]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 58060.773438
+[2025.04.21-11.32.07:799][874]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-11.32.07:799][874]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 58061.441406, Update Interval: 343.908203
+[2025.04.21-11.38.22:531][998]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 58436.281250
+[2025.04.21-11.38.23:530][  1]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-11.38.23:530][  1]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 58436.945312, Update Interval: 353.407990
+[2025.04.21-11.45.13:256][230]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 58846.828125
+[2025.04.21-11.45.14:256][233]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-11.45.14:256][233]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 58847.500000, Update Interval: 345.103912
+[2025.04.21-11.51.46:333][409]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 59239.515625
+[2025.04.21-11.51.47:335][412]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-11.51.47:335][412]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 59240.179688, Update Interval: 304.885406
+[2025.04.21-11.57.48:063][494]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 59601.156250
+[2025.04.21-11.57.49:064][497]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-11.57.49:064][497]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 59601.824219, Update Interval: 301.646179
+[2025.04.21-12.03.33:121][529]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 59945.941406
+[2025.04.21-12.03.34:122][532]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-12.03.34:122][532]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 59946.605469, Update Interval: 333.390289
+[2025.04.21-12.09.43:845][641]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 60316.300781
+[2025.04.21-12.09.44:844][644]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-12.09.44:844][644]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 60316.968750, Update Interval: 318.946503
+[2025.04.21-12.15.48:240][734]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 60680.625000
+[2025.04.21-12.15.49:240][737]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-12.15.49:240][737]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 60681.289062, Update Interval: 353.823669
+[2025.04.21-12.16.55:601][937]LogDerivedDataCache: C:/Users/sinan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.04.21-12.22.35:312][955]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 61087.621094
+[2025.04.21-12.22.36:314][958]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-12.22.36:316][959]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 61088.285156, Update Interval: 347.171234
+[2025.04.21-12.24.18:323][264]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: 0a4...13c
+[2025.04.21-12.24.18:323][264]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 99.8 RefreshExpires: 1.548e+07
+[2025.04.21-12.24.19:323][267]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: 0a4...13c Access[Expires: 2025.04.21-14.25.00 Remaining: 7200.79] Refresh[Expires: 2025-10-17T17:16:29.537Z Remaining: 15483089.54] State: Valid
+[2025.04.21-12.28.57:702][102]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 61469.972656
+[2025.04.21-12.28.58:703][105]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-12.28.58:703][105]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 61470.636719, Update Interval: 310.851166
+[2025.04.21-12.34.40:833][131]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 61812.972656
+[2025.04.21-12.34.41:831][134]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-12.34.41:831][134]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 61813.636719, Update Interval: 344.234131
+[2025.04.21-12.41.13:241][308]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 62205.316406
+[2025.04.21-12.41.14:243][311]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-12.41.14:243][311]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 62205.984375, Update Interval: 331.524414
+[2025.04.21-12.47.29:192][433]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 62580.828125
+[2025.04.21-12.47.30:194][436]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-12.47.30:194][436]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 62581.492188, Update Interval: 329.742737
+[2025.04.21-12.53.46:910][566]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 62957.367188
+[2025.04.21-12.53.47:910][569]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.21-12.53.47:910][569]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 62958.031250, Update Interval: 344.829254
+[2025.04.21-12.55.27:294][283]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.21-12.55.27:307][283]LogContentBundle: [InitMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.21-12.55.27:307][283]LogWorldPartition: Display: GenerateStreaming for 'InitMap' started...
+[2025.04.21-12.55.27:312][283]LogWorldPartition: Display: GenerateStreaming for 'InitMap' took 5.532 ms (total: 31.545 ms)
+[2025.04.21-12.55.28:128][283]LogSlate: External Image Picker: DecompressImage failed
+[2025.04.21-12.55.28:728][283]LogSlate: External Image Picker: DecompressImage failed
+[2025.04.21-12.55.28:876][283]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.21-12.55.28:877][283]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_InitMap
+[2025.04.21-12.55.28:885][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007392s)
+[2025.04.21-12.55.28:885][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/InitMap.InitMap to /Game/Maps/UEDPIE_0_InitMap.InitMap (0.007560s)
+[2025.04.21-12.55.28:949][283]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2025.04.21-12.55.28:953][283]LogChaosDD: Creating Chaos Debug Draw Scene for world InitMap
+[2025.04.21-12.55.28:955][283]LogWorldPartition: ULevel::OnLevelLoaded(InitMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.21-12.55.28:955][283]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.21-12.55.28:955][283]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/UEDPIE_0_InitMap.InitMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.21-12.55.28:955][283]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.21-12.55.28:957][283]LogWorldPartition: Display: WorldPartition initialize took 1.116 ms (total: 41.147 ms)
+[2025.04.21-12.55.28:957][283]LogPlayLevel: PIE: World Init took: (0.003273s)
+[2025.04.21-12.55.28:957][283]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2025.04.21-12.55.28:958][283]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.21-12.55.28:958][283]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.21-12.55.28:958][283]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.21-12.55.28:958][283]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.21-12.55.28:958][283]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.21-12.55.28:958][283]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.21-12.55.28:958][283]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.21-12.55.28:958][283]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.21-12.55.28:958][283]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.21-12.55.28:958][283]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.21-12.55.28:958][283]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.21-12.55.28:962][283]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.21-12.55.28:983][283]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Focusrite USB Audio)
+[2025.04.21-12.55.28:984][283]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.21-12.55.28:984][283]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.21-12.55.28:984][283]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.21-12.55.28:985][283]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2025.04.21-12.55.28:985][283]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=29
+[2025.04.21-12.55.28:987][283]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2025.04.21-12.55.28:987][283]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2025.04.21-12.55.28:987][283]LogInit: FAudioDevice initialized with ID 29.
+[2025.04.21-12.55.28:987][283]LogAudio: Display: Audio Device (ID: 29) registered with world 'InitMap'.
+[2025.04.21-12.55.28:987][283]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 29
+[2025.04.21-12.55.28:995][283]LogLoad: Game class is 'BP_MainGameMode_C'
+[2025.04.21-12.55.28:999][283]LogWorld: Bringing World /Game/Maps/UEDPIE_0_InitMap.InitMap up for play (max tick rate 0) at 2025.04.21-13.55.28
+[2025.04.21-12.55.28:999][283]LogWorld: Bringing up level for play took: 0.004446
+[2025.04.21-12.55.29:002][283]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2025.04.21-12.55.29:012][283]LogStreaming: Display: FlushAsyncLoading(657): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.21-12.55.29:014][283]PIE: Server logged in
+[2025.04.21-12.55.29:015][283]PIE: Play in editor total start time 1.709 seconds.
+[2025.04.21-12.55.32:814][667]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockAlways
+[2025.04.21-12.55.32:814][667]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2025.04.21-12.55.32:814][667]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.04.21-12.55.48:992][549]LogSlate: External Image Picker: DecompressImage failed
+[2025.04.21-12.55.49:414][549]LogSlate: External Image Picker: DecompressImage failed
+[2025.04.21-12.55.49:511][549]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.21-12.55.49:511][549]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_InitMap
+[2025.04.21-12.55.49:512][549]LogWorld: UWorld::CleanupWorld for InitMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.21-12.55.49:512][549]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.21-12.55.49:512][549]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/UEDPIE_0_InitMap.InitMap
+[2025.04.21-12.55.49:519][549]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.21-12.55.49:522][549]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.21-12.55.49:540][549]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.21-12.55.49:540][549]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 29
+[2025.04.21-12.55.49:541][549]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2025.04.21-12.55.49:542][549]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2025.04.21-12.55.49:547][549]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.04.21-12.55.49:976][550]LogPlayLevel: Display: Destroying online subsystem :Context_60
